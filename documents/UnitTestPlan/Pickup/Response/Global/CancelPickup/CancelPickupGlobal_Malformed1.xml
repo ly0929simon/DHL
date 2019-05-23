@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><res:ErrorResponse xmlns:res='http://www.dhl.com' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation= 'http://www.dhl.com err-res.xsd'>
+    <Response>
+        <ServiceHeader>
+            <MessageTime>2018-02-05T12:35:56+01:00</MessageTime>
+        </ServiceHeader>
+        <Status>
+            <ActionStatus>Error</ActionStatus>
+            <Condition>
+                <ConditionCode>111</ConditionCode>
+                <ConditionData>Error in parsing request XML:The element
+                    type &quot;req:CancelPURequest&quot; must be
+                    terminated by the matching end-tag &quot;&lt;/req:CancelPURequest&gt;&quot;.</ConditionData>
+            </Condition>
+        </Status>
+    </Response></res:ErrorResponse><!-- ServiceInvocationId:20180205123556_aaa4_fa7049e2-7e52-47de-9861-c6c701edaefd -->

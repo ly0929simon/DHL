@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<p:DCTRequest xmlns:p="http://www.dhl.com" xmlns:p1="http://www.dhl.com/datatypes" xmlns:p2="http://www.dhl.com/DCTRequestdatatypes" schemaVersion="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.dhl.com DCT-req.xsd ">
+  <GetCapability>
+    <Request>    
+    </Request>
+    <From>
+      <CountryCode>MY</CountryCode>
+      <Postalcode>57000</Postalcode>
+	  <City>57000</City>
+    </From>
+    <BkgDetails>
+      <PaymentCountryCode>MY</PaymentCountryCode>
+      <Date>2017-11-10</Date>
+      <ReadyTime>PT10H21M</ReadyTime>
+      <ReadyTimeGMTOffset>+01:00</ReadyTimeGMTOffset>
+      <DimensionUnit>CM</DimensionUnit>
+      <WeightUnit>KG</WeightUnit>
+      <Pieces>
+        <Piece>
+          <PieceID>1</PieceID>
+          <Height>30</Height>
+          <Depth>20</Depth>
+          <Width>10</Width>
+          <Weight>10.0</Weight>
+        </Piece>
+      </Pieces>      
+      <IsDutiable>Y</IsDutiable>
+      <NetworkTypeCode>AL</NetworkTypeCode>
+    </BkgDetails>
+    <To>
+      <CountryCode>DE</CountryCode>
+      <Postalcode>53113</Postalcode>
+    </To>
+   <Dutiable>
+      <DeclaredCurrency>USD</DeclaredCurrency>
+      <DeclaredValue>1002.00</DeclaredValue>
+    </Dutiable>
+  </GetCapability>
+</p:DCTRequest>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<req:BookPURequest xmlns:req="http://www.dhl.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.dhl.com pickup-global-req.xsd" schemaVersion="3.0">    
+<Request>
+  <ServiceHeader>
+    <MessageTime>2001-12-17T09:30:47-05:00</MessageTime>
+    
+        <SiteID>CustomerSiteID</SiteID>
+		<Password>CustomerPassword</Password>
+  </ServiceHeader>
+  <MetaData>
+		<SoftwareName>XMLPI</SoftwareName>
+		<SoftwareVersion>1.0</SoftwareVersion>
+  </MetaData>
+</Request>
+		<RegionCode>AP</RegionCode>
+<Requestor>
+	<AccountType>D</AccountType>
+	<AccountNumber>123456789</AccountNumber>
+	<RequestorContact>
+		<PersonName>Kosani Test</PersonName>
+		<Phone>0383158286</Phone>
+		<PhoneExtension>8286</PhoneExtension>
+	</RequestorContact>
+	<CompanyName>IBM Malaysia Sdn Bhd IBM Malaysia Sdn Bhd IBM Malaysia Sdn60</CompanyName>
+	<Address1>19th Floor, Plaza IBM 19th Floor,Plaza IBM 45</Address1>
+	<City>Shanghai</City>
+	<CountryCode>CN</CountryCode>
+</Requestor>
+	<Place>
+		<LocationType>B</LocationType>
+		<CompanyName>IBM Malaysia Sdn Bhd IBM Malaysia Sdn Bhd IBM Malaysia Sdn60</CompanyName>
+		<Address1>19th Floor, Plaza IBM 19th Floor,Plaza IBM 45</Address1>
+		<Address2>No. 8, First Avenue, No. 8, First Avenue, A45</Address2>
+		<Address3>The IBM Place The IBM Place The IBM Place T45</Address3>
+		<PackageLocation>The IBM Place</PackageLocation>
+		<City>Shanghai</City>
+		<CountryCode>CN</CountryCode>
+		<PostalCode>200000</PostalCode>  
+	</Place>
+	<Pickup>
+		<PickupDate>2018-02-06</PickupDate>
+		<PickupTypeCode>S</PickupTypeCode>
+		<ReadyByTime>10:20</ReadyByTime>
+		<CloseTime>14:20</CloseTime>
+		<Pieces>1</Pieces>
+		<weight>
+			<Weight>0.5</Weight>
+			<WeightUnit>K</WeightUnit>
+		</weight>
+	</Pickup>
+	<PickupContact>
+		<PersonName>Kosani</PersonName>
+		<Phone>0193882884</Phone>
+		<PhoneExtension>5768</PhoneExtension>
+	</PickupContact> 
+	<ShipmentDetails>
+		<AccountType>D</AccountType>
+		<AccountNumber>123456789</AccountNumber>
+		<AWBNumber>3888112852</AWBNumber>
+		<NumberOfPieces>1</NumberOfPieces>
+		<Weight>0.5</Weight>
+		<WeightUnit>K</WeightUnit>
+		<GlobalProductCode>P</GlobalProductCode>
+		<DoorTo>DD</DoorTo>
+		<DimensionUnit>C</DimensionUnit>
+		<InsuredAmount>20.00</InsuredAmount>
+		<InsuredCurrencyCode>USD</InsuredCurrencyCode>
+		<Pieces>
+		 <Piece>
+			<Weight>10.0</Weight>
+			<Width>2</Width>
+			<Height>2</Height>
+			<Depth>2</Depth>
+		 </Piece>
+		</Pieces>
+	</ShipmentDetails>
+</req:BookPURequest>
+

@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<project name="ShipVal" default="javac" basedir=".">
+	<description>To Generate SOP Label.</description>
+
+	<property file="build.properties"/>
+   
+    <path id="classpath">
+		<pathelement location="${classes.dir}"/>
+		<fileset dir="${lib.dir}">
+			<include name="**/*.jar"/>
+		</fileset>
+		<pathelement location="${classes.dir}" />
+	 </path>
+ 
+
+   <target name="jasperCompile" description="Compiles the XML report design and produces the .jasper file.">
+		<taskdef name="jrc" classname="net.sf.jasperreports.ant.JRAntCompileTask"> 
+			<classpath refid="classpath"/>
+		</taskdef>
+		<jrc destdir="${file.name}" srcdir="${file.name}">
+			<!--src>
+				<fileset dir="${file.name}">
+					<include name="**/*.jrxml"/>
+				</fileset>
+			</src-->
+			<classpath refid="classpath"/>
+			<include name="*.jrxml"/>
+		</jrc> 
+	</target>
+ 
+ 
+</project>

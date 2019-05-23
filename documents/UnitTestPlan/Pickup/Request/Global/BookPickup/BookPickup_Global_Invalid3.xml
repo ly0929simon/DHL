@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<req:BookPURequest xmlns:req="http://www.dhl.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.dhl.com pickup-global-req.xsd" schemaVersion="3.0">
+<Request>
+<ServiceHeader>
+	<MessageTime>2001-12-17T09:30:47-05:00</MessageTime>
+	<MessageReference>BookPickupGL_US______________</MessageReference>
+    <SiteID>CustomerSiteID</SiteID>
+	<Password>CustomerPassword</Password>
+</ServiceHeader>
+<MetaData>
+		<SoftwareName>XMLPI</SoftwareName>
+		<SoftwareVersion>1.0</SoftwareVersion>
+ </MetaData>
+</Request>	
+	<RegionCode>AM</RegionCode>
+	<Requestor>
+		<AccountType>D</AccountType>
+		<AccountNumber>123456789</AccountNumber>
+		<RequestorContact>
+		<PersonName>Kosani Banerjee</PersonName>
+		<Phone>0193882884</Phone>
+		</RequestorContact>
+		<CompanyName>Sony Computer Entertainment US</CompanyName>
+		<Address1>1210 S Pine Island Road</Address1>
+		<City>Montreal</City>
+		<CountryCode>CA</CountryCode>
+	</Requestor>
+	<Place>
+		<LocationType>B</LocationType>
+		<CompanyName>Sony Computer Entertainment US</CompanyName>
+		<Address1>1210 S Pine Island Road</Address1>
+		<PackageLocation>Sony Computer Entertainment US</PackageLocation>
+		<City>Montreal</City>
+		<CountryCode>CA</CountryCode>
+		<PostalCode>M6A 1C8</PostalCode>
+	</Place>
+	<Pickup>
+		<PickupDate>2018-02-06</PickupDate>
+		<PickupTypeCode>S</PickupTypeCode>
+		<ReadyByTime>10:20</ReadyByTime>
+		<CloseTime>14:20</CloseTime>
+		<AfterHoursClosingTime>16:20</AfterHoursClosingTime>
+		<AfterHoursLocation>String</AfterHoursLocation>
+		<Pieces>1</Pieces>
+		<weight>
+			<Weight>10</Weight>
+			<WeightUnit>R</WeightUnit>
+		</weight>
+	</Pickup>
+	<PickupContact>
+		<PersonName>Kosani Test</PersonName>
+		<Phone>83158286</Phone>
+	</PickupContact>
+	<ShipmentDetails>
+		<AccountType>D</AccountType>
+		<AccountNumber>123456789</AccountNumber>
+		<BillToAccountNumber>123456789</BillToAccountNumber>
+		<AWBNumber>3888039503</AWBNumber>
+		<NumberOfPieces>1</NumberOfPieces>
+		<Weight>10</Weight>
+		<WeightUnit>L</WeightUnit>
+		<GlobalProductCode>P</GlobalProductCode>
+		<DoorTo>DD</DoorTo>
+		<DimensionUnit>I</DimensionUnit>
+		<InsuredAmount>10.10</InsuredAmount>
+		<InsuredCurrencyCode>CAD</InsuredCurrencyCode>
+		<Pieces>
+		<Piece>
+		<Weight>10</Weight>
+		<Width>2</Width>
+		<Height>2</Height>
+		<Depth>2</Depth>
+		</Piece>
+		</Pieces>
+	</ShipmentDetails>
+</req:BookPURequest>
+
+

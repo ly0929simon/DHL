@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<req:ShipmentRequest xmlns:req="http://www.dhl.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.dhl.com ship-val-global-req.xsd" schemaVersion="6.2">
+	<Request>
+		<ServiceHeader>
+			<MessageTime>2002-08-20T11:28:56.000-08:00</MessageTime>
+			<MessageReference>Shipmnt_AP_CN_lblimg_62_sch_Reg</MessageReference>
+            <SiteID>CustomerSiteID</SiteID>
+            <Password>CustomerPassword</Password>
+		</ServiceHeader>
+		<MetaData>
+			<SoftwareName>3PV</SoftwareName>
+			<SoftwareVersion>6.2</SoftwareVersion>
+		</MetaData>
+	</Request>
+	<RegionCode>AP</RegionCode>
+	<LanguageCode>en</LanguageCode>
+	<PiecesEnabled>Y</PiecesEnabled>
+	<Billing>
+		<ShipperAccountNumber>123456789</ShipperAccountNumber>
+		<ShippingPaymentType>S</ShippingPaymentType>
+		<DutyPaymentType>R</DutyPaymentType>
+	</Billing>
+	<Consignee>
+		<CompanyName>IBM Malaysia Sdn Bhd IBM Malaysia Sdn Bhd IBM Malaysia Sdn60</CompanyName>
+		<AddressLine>19th Floor, Plaza IBM 19th Floor,Plaza IBM 45</AddressLine>
+		<AddressLine>No. 8, First Avenue, No. 8, First Avenue, A45</AddressLine>
+		<AddressLine>Persiaran Bandar Utama Persiaran Bandar, AB45</AddressLine>
+		<City>Petaling Jaya</City>
+		<PostalCode>47800</PostalCode>
+		<CountryCode>MY</CountryCode>
+		<CountryName>Malaysia</CountryName>
+		<Contact>
+			<PersonName>Ms Ellie White</PersonName>
+			<PhoneNumber>11234325423</PhoneNumber>
+			<PhoneExtension>45232</PhoneExtension>
+			<FaxNumber>11234325423</FaxNumber>
+			<Telex>454586</Telex>
+			<Email>test@dhl.com</Email>
+		</Contact>
+	</Consignee>
+	<Commodity>
+		<CommodityCode>cc</CommodityCode>
+		<CommodityName>cm</CommodityName>
+	</Commodity>
+	<Dutiable>
+		<DeclaredValue>50.50</DeclaredValue>
+		<DeclaredCurrency>HKD</DeclaredCurrency>
+		<ShipperEIN>ShipperEIN</ShipperEIN>		
+	</Dutiable>
+	<Reference>
+		<ReferenceID>HK international shipnment</ReferenceID>
+		<ReferenceType>St</ReferenceType>
+	</Reference>
+	<ShipmentDetails>
+		<NumberOfPieces>2</NumberOfPieces>
+		<Pieces>
+			<Piece>
+				<PieceID>1</PieceID>
+				<PackageType>EE</PackageType>
+				<Weight>0.5</Weight>
+				<Width>30</Width>
+				<Height>40</Height>
+				<Depth>20</Depth>
+			</Piece>
+			<Piece>
+				<PieceID>2</PieceID>
+				<PackageType>EE</PackageType>
+				<Weight>2.0</Weight>
+				<Width>60</Width>
+				<Height>70</Height>
+				<Depth>50</Depth>
+			</Piece>
+		</Pieces>
+		<Weight>2.5</Weight>
+		<WeightUnit>K</WeightUnit>
+		<GlobalProductCode>P</GlobalProductCode>
+		<LocalProductCode>P</LocalProductCode>
+		<Date>2018-02-28</Date>
+		<Contents>For testing purpose only. Please do not ship</Contents>
+		<DoorTo>DD</DoorTo>
+		<DimensionUnit>C</DimensionUnit>
+		<InsuredAmount>10.00</InsuredAmount>
+		<PackageType>EE</PackageType>
+		<IsDutiable>Y</IsDutiable>
+		<CurrencyCode>HKD</CurrencyCode>
+	</ShipmentDetails>
+	<Shipper>
+		<ShipperID>600015482</ShipperID>
+		<CompanyName>Fujitsu Denso International Limited</CompanyName>
+		<AddressLine>Unit 603, 05-07,</AddressLine>
+		<AddressLine>Bio-Informatics Centre</AddressLine>
+		<City>Shanghai</City>
+		<DivisionCode>Shatin</DivisionCode>
+		<PostalCode>200000</PostalCode>
+		<CountryCode>CN</CountryCode>
+		<CountryName>China</CountryName>
+		<Contact>
+			<PersonName>santa santa</PersonName>
+			<PhoneNumber>15356456364</PhoneNumber>
+			<PhoneExtension>6536</PhoneExtension>
+			<FaxNumber>17456356365</FaxNumber>
+			<Telex>74558</Telex>
+			<Email>aaa@test.com</Email>
+		</Contact>
+	</Shipper>
+	<LabelImageFormat>PDF</LabelImageFormat> 
+</req:ShipmentRequest>

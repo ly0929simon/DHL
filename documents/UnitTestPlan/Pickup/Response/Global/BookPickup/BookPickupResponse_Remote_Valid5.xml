@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><res:BookPUResponse xmlns:res='http://www.dhl.com' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation= 'http://www.dhl.com pickup-res.xsd'>
+    <Response>
+        <ServiceHeader>
+            <MessageTime>2018-02-05T08:30:48+01:00</MessageTime>
+            <MessageReference>1234567890123456789012345678901</MessageReference>
+            <SiteID>CustomerSiteID</SiteID>
+        </ServiceHeader>
+    </Response>
+    <RegionCode>EU</RegionCode>
+    <Note>
+        <ActionNote>Success</ActionNote>
+    </Note>
+    <ConfirmationNumber>CBJ180206638824</ConfirmationNumber>
+    <ReadyByTime>16:30:00</ReadyByTime>
+    <NextPickupDate>2018-02-07</NextPickupDate>
+    <OriginSvcArea>LPL</OriginSvcArea>
+    <CountryCode>GB</CountryCode>
+    <RequestorCountryCode>FR</RequestorCountryCode>
+    <RemotePickupFlag>Y</RemotePickupFlag></res:BookPUResponse><!-- ServiceInvocationId:20180205083046_aaa4_72e00fc9-920f-41a7-8758-ea344c27a783 -->

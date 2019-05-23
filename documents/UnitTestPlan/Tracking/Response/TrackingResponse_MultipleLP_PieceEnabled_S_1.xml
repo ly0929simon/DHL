@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<req:TrackingResponse xmlns:req="http://www.dhl.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.dhl.com TrackingResponse.xsd">
+    <Response>
+        <ServiceHeader>
+            <MessageTime>2018-02-27T12:45:41+01:00</MessageTime>
+            <MessageReference>1234567890123456789012345678</MessageReference>
+            <SiteID>CustomerSiteID</SiteID>
+        </ServiceHeader>
+    </Response>
+    <AWBInfo>
+        <AWBNumber>7031291842</AWBNumber>
+        <TrackedBy>
+            <LPNumber>JD014600004970005370</LPNumber>
+        </TrackedBy>
+        <Status>
+            <ActionStatus>success</ActionStatus>
+        </Status>
+        <ShipmentInfo>
+            <OriginServiceArea>
+                <ServiceAreaCode>BSL</ServiceAreaCode>
+                <Description>BASEL-CHE</Description>
+            </OriginServiceArea>
+            <DestinationServiceArea>
+                <ServiceAreaCode>TRN</ServiceAreaCode>
+                <Description>TURIN-ITA</Description>
+            </DestinationServiceArea>
+            <ShipperName>VAT VAKUUMVENTILE AG</ShipperName>
+            <ShipperAccountNumber>123456789</ShipperAccountNumber>
+            <ConsigneeName>AGILENT TECHNOLOGIES TORINO VACUUM</ConsigneeName>
+            <ShipmentDate>2017-12-18T16:00:00</ShipmentDate>
+            <Pieces>28</Pieces>
+            <Weight>30.3</Weight>
+            <GlobalProductCode>B</GlobalProductCode>
+            <ShipmentDesc>- VACUUM VALVES AND SPARE PART</ShipmentDesc>
+            <DlvyNotificationFlag>Y</DlvyNotificationFlag>
+            <Shipper>
+                <City>HAAG (RHEINTAL)</City>
+                <PostalCode>9469</PostalCode>
+                <CountryCode>CH</CountryCode>
+            </Shipper>
+            <Consignee>
+                <City>LEINI</City>
+                <PostalCode>10040</PostalCode>
+                <CountryCode>IT</CountryCode>
+            </Consignee>
+            <ShipperReference>
+                <ReferenceID>2324918/0/- (4328)</ReferenceID>
+            </ShipperReference>
+            <ShipmentEvent>
+                <Date>2017-12-18</Date>
+                <Time>16:00:00</Time>
+                <ServiceEvent>
+                    <EventCode>SD</EventCode>
+                    <Description>Shipment information received</Description>
+                </ServiceEvent>
+                <Signatory/>
+                <ServiceArea>
+                    <ServiceAreaCode>BSL</ServiceAreaCode>
+                    <Description>BASEL-CHE</Description>
+                </ServiceArea>
+            </ShipmentEvent>
+        </ShipmentInfo>
+    </AWBInfo>
+    <AWBInfo>
+        <AWBNumber>4781585060</AWBNumber>
+        <TrackedBy>
+            <LPNumber>JD014600005070396503</LPNumber>
+        </TrackedBy>
+        <Status>
+            <ActionStatus>success</ActionStatus>
+        </Status>
+        <ShipmentInfo>
+            <OriginServiceArea>
+                <ServiceAreaCode>HKG</ServiceAreaCode>
+                <Description>HONG KONG-HKG</Description>
+            </OriginServiceArea>
+            <DestinationServiceArea>
+                <ServiceAreaCode>HKG</ServiceAreaCode>
+                <Description>HONG KONG-HKG</Description>
+            </DestinationServiceArea>
+            <ShipperName>NET-A-PORTER</ShipperName>
+            <ShipperAccountNumber>123456789</ShipperAccountNumber>
+            <ConsigneeName>NICOLE LI</ConsigneeName>
+            <ShipmentDate>2017-12-24T13:35:00</ShipmentDate>
+            <Pieces>1</Pieces>
+            <Weight>2.0</Weight>
+            <WeightUnit>K</WeightUnit>
+            <GlobalProductCode>N</GlobalProductCode>
+            <ShipmentDesc>NOT RESTRICTED FOR TRANSPORT,</ShipmentDesc>
+            <DlvyNotificationFlag>Y</DlvyNotificationFlag>
+            <Shipper>
+                <City>HONG KONG</City>
+                <CountryCode>HK</CountryCode>
+            </Shipper>
+            <Consignee>
+                <City>HONG KONG</City>
+                <DivisionCode>CH</DivisionCode>
+                <CountryCode>HK</CountryCode>
+            </Consignee>
+            <ShipperReference>
+                <ReferenceID>1060571</ReferenceID>
+            </ShipperReference>
+            <ShipmentEvent>
+                <Date>2017-12-24</Date>
+                <Time>13:35:00</Time>
+                <ServiceEvent>
+                    <EventCode>SD</EventCode>
+                    <Description>Shipment information received</Description>
+                </ServiceEvent>
+                <Signatory/>
+                <ServiceArea>
+                    <ServiceAreaCode>HKG</ServiceAreaCode>
+                    <Description>HONG KONG-HKG</Description>
+                </ServiceArea>
+            </ShipmentEvent>
+        </ShipmentInfo>
+    </AWBInfo>
+    <AWBInfo>
+        <AWBNumber>4781584780</AWBNumber>
+        <TrackedBy>
+            <LPNumber>JD014600005070396469</LPNumber>
+        </TrackedBy>
+        <Status>
+            <ActionStatus>success</ActionStatus>
+        </Status>
+        <ShipmentInfo>
+            <OriginServiceArea>
+                <ServiceAreaCode>PEK</ServiceAreaCode>
+                <Description>BEIJING-CHN</Description>
+            </OriginServiceArea>
+            <DestinationServiceArea>
+                <ServiceAreaCode>PHL</ServiceAreaCode>
+                <Description>WEST PHILADELPHIA,PA-USA</Description>
+            </DestinationServiceArea>
+            <ShipperName>THE EXP HIGH SCH ATT TO BNU</ShipperName>
+            <ShipperAccountNumber>123456789</ShipperAccountNumber>
+            <ConsigneeName>HAVEFORD COLLEGE</ConsigneeName>
+            <ShipmentDate>2017-12-25T14:38:00</ShipmentDate>
+            <Pieces>1</Pieces>
+            <Weight>0.5</Weight>
+            <WeightUnit>K</WeightUnit>
+            <GlobalProductCode>D</GlobalProductCode>
+            <ShipmentDesc>DOCUMENT</ShipmentDesc>
+            <DlvyNotificationFlag>Y</DlvyNotificationFlag>
+            <Shipper>
+                <City>BEIJING</City>
+                <PostalCode>100032</PostalCode>
+                <CountryCode>CN</CountryCode>
+            </Shipper>
+            <Consignee>
+                <City>HAVERFORD</City>
+                <DivisionCode>PA</DivisionCode>
+                <PostalCode>19041</PostalCode>
+                <CountryCode>US</CountryCode>
+            </Consignee>
+            <ShipperReference>
+                <ReferenceID>2469</ReferenceID>
+            </ShipperReference>
+            <ShipmentEvent>
+                <Date>2017-12-25</Date>
+                <Time>14:38:00</Time>
+                <ServiceEvent>
+                    <EventCode>SD</EventCode>
+                    <Description>Shipment information received</Description>
+                </ServiceEvent>
+                <Signatory/>
+                <ServiceArea>
+                    <ServiceAreaCode>PEK</ServiceAreaCode>
+                    <Description>BEIJING-CHN</Description>
+                </ServiceArea>
+            </ShipmentEvent>
+        </ShipmentInfo>
+    </AWBInfo>
+    <LanguageCode>en</LanguageCode>
+</req:TrackingResponse>
+<!-- ServiceInvocationId:20180227124541_5793_354ee341-a8d7-4058-99b1-15d8b044eca4 -->

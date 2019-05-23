@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><res:ErrorResponse xmlns:res='http://www.dhl.com' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation= 'http://www.dhl.com err-res.xsd'>
+    <Response>
+        <ServiceHeader>
+            <MessageTime>2018-02-05T08:01:15+01:00</MessageTime>
+        </ServiceHeader>
+        <Status>
+            <ActionStatus>Error</ActionStatus>
+            <Condition>
+                <ConditionCode>111</ConditionCode>
+                <ConditionData>Error in parsing request XML:The element
+                    type &quot;Pieces&quot; must be terminated by the
+                    matching end-tag &quot;&lt;/Pieces&gt;&quot;.</ConditionData>
+            </Condition>
+        </Status>
+    </Response></res:ErrorResponse><!-- ServiceInvocationId:20180205080115_aaa4_418b4df5-6729-4ccd-b61c-45571e76c67c -->

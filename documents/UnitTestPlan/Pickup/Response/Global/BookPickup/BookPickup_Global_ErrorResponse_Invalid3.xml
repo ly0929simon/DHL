@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><res:ErrorResponse xmlns:res='http://www.dhl.com' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation= 'http://www.dhl.com err-res.xsd'>
+    <Response>
+        <ServiceHeader>
+            <MessageTime>2018-02-05T08:10:00+01:00</MessageTime>
+            <MessageReference>BookPickupGL_US______________</MessageReference>
+            <SiteID>CustomerSiteID</SiteID>
+			<Password>CustomerPassword</Password>
+        </ServiceHeader>
+        <Status>
+            <ActionStatus>Error</ActionStatus>
+            <Condition>
+                <ConditionCode>111</ConditionCode>
+                <ConditionData>Error in parsing request XML:Error:
+                    Datatype error: In element &apos;WeightUnit&apos; :
+                    Value &apos;R&apos; must be one of [K, L]. at line
+                    47, column 31</ConditionData>
+            </Condition>
+        </Status>
+    </Response></res:ErrorResponse><!-- ServiceInvocationId:20180205081000_aaa4_28430ae7-db7f-4128-a617-493d5230fd5f -->

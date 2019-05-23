@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><res:ErrorResponse xmlns:res='http://www.dhl.com' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation= 'http://www.dhl.com err-res.xsd'>
+    <Response>
+        <ServiceHeader>
+            <MessageTime>2018-02-05T07:59:09+01:00</MessageTime>
+        </ServiceHeader>
+        <Status>
+            <ActionStatus>Error</ActionStatus>
+            <Condition>
+                <ConditionCode>111</ConditionCode>
+                <ConditionData>Error in parsing request XML:The element
+                    type &quot;req:BookPURequest&quot; must be
+                    terminated by the matching end-tag &quot;&lt;/req:BookPURequest&gt;&quot;.</ConditionData>
+            </Condition>
+        </Status>
+    </Response></res:ErrorResponse><!-- ServiceInvocationId:20180205075909_aaa4_c551ea96-a101-4d9d-a512-4d04350f67dd -->

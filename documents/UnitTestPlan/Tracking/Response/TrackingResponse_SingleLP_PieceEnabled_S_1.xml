@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<req:TrackingResponse xmlns:req="http://www.dhl.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.dhl.com TrackingResponse.xsd">
+    <Response>
+        <ServiceHeader>
+            <MessageTime>2018-02-27T12:33:25+01:00</MessageTime>
+            <MessageReference>TrackingRequest_Single_LP___</MessageReference>
+            <SiteID>CustomerSiteID</SiteID>
+        </ServiceHeader>
+    </Response>
+    <AWBInfo>
+        <AWBNumber>7031291842</AWBNumber>
+        <TrackedBy>
+            <LPNumber>JD014600004970005370</LPNumber>
+        </TrackedBy>
+        <Status>
+            <ActionStatus>success</ActionStatus>
+        </Status>
+        <ShipmentInfo>
+            <OriginServiceArea>
+                <ServiceAreaCode>BSL</ServiceAreaCode>
+                <Description>BASEL-CHE</Description>
+            </OriginServiceArea>
+            <DestinationServiceArea>
+                <ServiceAreaCode>TRN</ServiceAreaCode>
+                <Description>TURIN-ITA</Description>
+            </DestinationServiceArea>
+            <ShipperName>VAT VAKUUMVENTILE AG</ShipperName>
+            <ShipperAccountNumber>123456789</ShipperAccountNumber>
+            <ConsigneeName>AGILENT TECHNOLOGIES TORINO VACUUM</ConsigneeName>
+            <ShipmentDate>2017-12-18T16:00:00</ShipmentDate>
+            <Pieces>28</Pieces>
+            <Weight>30.3</Weight>
+            <GlobalProductCode>B</GlobalProductCode>
+            <ShipmentDesc>- VACUUM VALVES AND SPARE PART</ShipmentDesc>
+            <DlvyNotificationFlag>Y</DlvyNotificationFlag>
+            <Shipper>
+                <City>HAAG (RHEINTAL)</City>
+                <PostalCode>9469</PostalCode>
+                <CountryCode>CH</CountryCode>
+            </Shipper>
+            <Consignee>
+                <City>LEINI</City>
+                <PostalCode>10040</PostalCode>
+                <CountryCode>IT</CountryCode>
+            </Consignee>
+            <ShipperReference>
+                <ReferenceID>2324918/0/- (4328)</ReferenceID>
+            </ShipperReference>
+            <ShipmentEvent>
+                <Date>2017-12-18</Date>
+                <Time>16:00:00</Time>
+                <ServiceEvent>
+                    <EventCode>SD</EventCode>
+                    <Description>Shipment information received</Description>
+                </ServiceEvent>
+                <Signatory/>
+                <ServiceArea>
+                    <ServiceAreaCode>BSL</ServiceAreaCode>
+                    <Description>BASEL-CHE</Description>
+                </ServiceArea>
+            </ShipmentEvent>
+        </ShipmentInfo>
+    </AWBInfo>
+    <LanguageCode>en</LanguageCode>
+</req:TrackingResponse>
+<!-- ServiceInvocationId:20180227123324_5793_3b8f08af-b7ac-4a13-9f37-b309f844ae60 -->

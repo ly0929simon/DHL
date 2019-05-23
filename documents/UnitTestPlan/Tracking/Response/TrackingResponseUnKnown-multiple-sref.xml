@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<req:ShipmentTrackingErrorResponse xmlns:req="http://www.dhl.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.dhl.com track-err-res.xsd">
+    <Response>
+        <ServiceHeader>
+            <MessageTime>2018-02-27T13:09:20+01:00</MessageTime>
+            <MessageReference>1234567890123456789012345678</MessageReference>
+            <SiteID>CustomerSiteID</SiteID>
+        </ServiceHeader>
+        <Status>
+            <ActionStatus>Failure</ActionStatus>
+            <Condition>
+                <ConditionCode>201</ConditionCode>
+                <ConditionData>Multiple shipper refrences are not supported.</ConditionData>
+            </Condition>
+        </Status>
+    </Response>
+</req:ShipmentTrackingErrorResponse>
+<!-- ServiceInvocationId:20180227130920_5793_cdb95c21-9b82-40e6-9a36-aa2bc568c2d1 -->

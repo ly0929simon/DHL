@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><res:ErrorResponse xmlns:res='http://www.dhl.com' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation= 'http://www.dhl.com err-res.xsd'>
+    <Response>
+        <ServiceHeader>
+            <MessageTime>2012-11-20T09:17:50+01:00</MessageTime>
+            <MessageReference>1234567890123456789012345678901</MessageReference>
+            <SiteID>TestSiteID</SiteID>
+        </ServiceHeader>
+        <Status>
+            <ActionStatus>Error</ActionStatus>
+            <Condition>
+                <ConditionCode>111</ConditionCode>
+                <ConditionData>Error in parsing request XML:Error: The
+                    content of element type &quot;ServiceHeader&quot; is
+                    incomplete, it must match
+                    &quot;(MessageTime,MessageReference,SiteID,Password)&quot;.
+                    at line 8, column 20</ConditionData>
+            </Condition>
+        </Status>
+    </Response></res:ErrorResponse>
+

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><res:DCTResponse xmlns:res='http://www.dhl.com' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation= 'http://www.dhl.com DCT-Response.xsd'>
+    <GetQuoteResponse>
+        <Response>
+            <ServiceHeader>
+                <MessageTime>2018-02-26T06:53:51.563+01:00</MessageTime>
+                <MessageReference>1234567890123456789012345678901</MessageReference>
+                <SiteID>CustomerSiteID</SiteID>
+            </ServiceHeader>
+        </Response>
+        <BkgDetails>
+            <QtdShp>
+                <OriginServiceArea>
+                    <FacilityCode>AND</FacilityCode>
+                    <ServiceAreaCode>BRU</ServiceAreaCode>
+                </OriginServiceArea>
+                <DestinationServiceArea>
+                    <FacilityCode>PHX</FacilityCode>
+                    <ServiceAreaCode>PHX</ServiceAreaCode>
+                </DestinationServiceArea>
+                <GlobalProductCode>P</GlobalProductCode>
+                <LocalProductCode>S</LocalProductCode>
+                <ProductShortName>EXPRESS WORLDWIDE</ProductShortName>
+                <LocalProductName>EXPRESS WORLDWIDE NONDOC</LocalProductName>
+                <NetworkTypeCode>TD</NetworkTypeCode>
+                <POfferedCustAgreement>N</POfferedCustAgreement>
+                <TransInd>Y</TransInd>
+                <PickupDate>2018-02-27</PickupDate>
+                <PickupCutoffTime>PT19H30M</PickupCutoffTime>
+                <BookingTime>PT18H</BookingTime>
+                <CurrencyCode>EUR</CurrencyCode>
+                <ExchangeRate>0.000</ExchangeRate>
+                <WeightCharge>116.420</WeightCharge>
+                <WeightChargeTax>0.000</WeightChargeTax>
+                <TotalTransitDays>2</TotalTransitDays>
+                <PickupPostalLocAddDays>0</PickupPostalLocAddDays>
+                <DeliveryPostalLocAddDays>4</DeliveryPostalLocAddDays>
+                <PickupNonDHLCourierCode> </PickupNonDHLCourierCode>
+                <DeliveryNonDHLCourierCode> </DeliveryNonDHLCourierCode>
+                <DeliveryDate>
+                    <DeliveryType>QDDC</DeliveryType>
+                    <DlvyDateTime>2018-03-05 11:59:00</DlvyDateTime>
+                    <DeliveryDateTimeOffset>+00:00</DeliveryDateTimeOffset>
+                </DeliveryDate>
+                <DeliveryTime>PT23H59M</DeliveryTime>
+                <DimensionalWeight>1.200</DimensionalWeight>
+                <WeightUnit>KG</WeightUnit>
+                <PickupDayOfWeekNum>2</PickupDayOfWeekNum>
+                <DestinationDayOfWeekNum>1</DestinationDayOfWeekNum>
+                <QuotedWeight>1.500</QuotedWeight>
+                <QuotedWeightUOM>KG</QuotedWeightUOM>
+                <QtdShpExChrg>
+                    <SpecialServiceType>FF</SpecialServiceType>
+                    <LocalServiceType>FF</LocalServiceType>
+                    <GlobalServiceName>FUEL SURCHARGE</GlobalServiceName>
+                    <LocalServiceTypeName>FUEL SURCHARGE</LocalServiceTypeName>
+                    <SOfferedCustAgreement>N</SOfferedCustAgreement>
+                    <ChargeCodeType>SCH</ChargeCodeType>
+                    <CurrencyCode>EUR</CurrencyCode>
+                    <ChargeValue>16.010</ChargeValue>
+                    <ChargeTaxAmount>0.000</ChargeTaxAmount>
+                    <ChargeTaxAmountDet>
+                        <TaxTypeRate>0.000</TaxTypeRate>
+                        <TaxTypeCode>All Bu</TaxTypeCode>
+                        <TaxAmount>0.000</TaxAmount>
+                        <BaseAmount>16.010</BaseAmount>
+                    </ChargeTaxAmountDet>
+                    <ChargeTaxAmountDet>
+                        <TaxTypeRate>0.000</TaxTypeRate>
+                        <TaxTypeCode>All Bu</TaxTypeCode>
+                    </ChargeTaxAmountDet>
+                    <ChargeTaxAmountDet>
+                        <TaxTypeRate>0.000</TaxTypeRate>
+                        <TaxTypeCode>All Bu</TaxTypeCode>
+                    </ChargeTaxAmountDet>
+                    <QtdSExtrChrgInAdCur>
+                        <ChargeValue>16.010</ChargeValue>
+                        <ChargeTaxAmount>0.000</ChargeTaxAmount>
+                        <CurrencyCode>EUR</CurrencyCode>
+                        <CurrencyRoleTypeCode>BILLC</CurrencyRoleTypeCode>
+                        <ChargeTaxAmountDet>
+                            <TaxTypeRate>0.000</TaxTypeRate>
+                            <TaxTypeCode>All Bu</TaxTypeCode>
+                            <TaxAmount>0.000</TaxAmount>
+                            <BaseAmount>16.010</BaseAmount>
+                        </ChargeTaxAmountDet>
+                    </QtdSExtrChrgInAdCur>
+                    <QtdSExtrChrgInAdCur>
+                        <ChargeTaxAmountDet>
+                            <TaxTypeRate>0.000</TaxTypeRate>
+                            <TaxTypeCode>All Bu</TaxTypeCode>
+                        </ChargeTaxAmountDet>
+                    </QtdSExtrChrgInAdCur>
+                    <QtdSExtrChrgInAdCur>
+                        <ChargeTaxAmountDet>
+                            <TaxTypeRate>0.000</TaxTypeRate>
+                            <TaxTypeCode>All Bu</TaxTypeCode>
+                        </ChargeTaxAmountDet>
+                    </QtdSExtrChrgInAdCur>
+                </QtdShpExChrg>
+                <QtdShpExChrg>
+                    <SpecialServiceType>II</SpecialServiceType>
+                    <LocalServiceType>II</LocalServiceType>
+                    <GlobalServiceName>SHIPMENT INSURANCE</GlobalServiceName>
+                    <LocalServiceTypeName>SHIPMENT INSURANCE</LocalServiceTypeName>
+                    <SOfferedCustAgreement>N</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <InsPrmRateInPercentage>0.000</InsPrmRateInPercentage>
+                    <CurrencyCode>EUR</CurrencyCode>
+                    <ChargeValue>10.000</ChargeValue>
+                    <ChargeTaxAmount>0.000</ChargeTaxAmount>
+                    <ChargeTaxAmountDet>
+                        <TaxTypeRate>0.000</TaxTypeRate>
+                        <TaxTypeCode>Insura</TaxTypeCode>
+                        <TaxAmount>0.000</TaxAmount>
+                        <BaseAmount>10.000</BaseAmount>
+                    </ChargeTaxAmountDet>
+                    <ChargeTaxAmountDet>
+                        <TaxTypeRate>0.000</TaxTypeRate>
+                        <TaxTypeCode>Insura</TaxTypeCode>
+                    </ChargeTaxAmountDet>
+                    <ChargeTaxAmountDet>
+                        <TaxTypeRate>0.000</TaxTypeRate>
+                        <TaxTypeCode>Insura</TaxTypeCode>
+                    </ChargeTaxAmountDet>
+                    <QtdSExtrChrgInAdCur>
+                        <ChargeValue>10.000</ChargeValue>
+                        <ChargeTaxAmount>0.000</ChargeTaxAmount>
+                        <CurrencyCode>EUR</CurrencyCode>
+                        <CurrencyRoleTypeCode>BILLC</CurrencyRoleTypeCode>
+                        <ChargeTaxAmountDet>
+                            <TaxTypeRate>0.000</TaxTypeRate>
+                            <TaxTypeCode>Insura</TaxTypeCode>
+                            <TaxAmount>0.000</TaxAmount>
+                            <BaseAmount>10.000</BaseAmount>
+                        </ChargeTaxAmountDet>
+                    </QtdSExtrChrgInAdCur>
+                    <QtdSExtrChrgInAdCur>
+                        <ChargeTaxAmountDet>
+                            <TaxTypeRate>0.000</TaxTypeRate>
+                            <TaxTypeCode>Insura</TaxTypeCode>
+                        </ChargeTaxAmountDet>
+                    </QtdSExtrChrgInAdCur>
+                    <QtdSExtrChrgInAdCur>
+                        <ChargeTaxAmountDet>
+                            <TaxTypeRate>0.000</TaxTypeRate>
+                            <TaxTypeCode>Insura</TaxTypeCode>
+                        </ChargeTaxAmountDet>
+                    </QtdSExtrChrgInAdCur>
+                </QtdShpExChrg>
+                <PricingDate>2018-02-26</PricingDate>
+                <ShippingCharge>142.430</ShippingCharge>
+                <TotalTaxAmount>0.000</TotalTaxAmount>
+                <QtdSInAdCur>
+                    <CurrencyCode>EUR</CurrencyCode>
+                    <CurrencyRoleTypeCode>BILLC</CurrencyRoleTypeCode>
+                    <WeightCharge>116.420</WeightCharge>
+                    <TotalAmount>142.430</TotalAmount>
+                    <TotalTaxAmount>0.000</TotalTaxAmount>
+                    <WeightChargeTax>0.000</WeightChargeTax>
+                    <WeightChargeTaxDet>
+                        <TaxTypeRate>0.000</TaxTypeRate>
+                        <TaxTypeCode>All Bu</TaxTypeCode>
+                        <WeightChargeTax>0.000</WeightChargeTax>
+                        <BaseAmt>116.420</BaseAmt>
+                    </WeightChargeTaxDet>
+                </QtdSInAdCur>
+                <QtdSInAdCur>
+                    <TotalTaxAmount>0.000</TotalTaxAmount>
+                    <WeightChargeTax>0.000</WeightChargeTax>
+                    <WeightChargeTaxDet>
+                        <TaxTypeRate>0.000</TaxTypeRate>
+                        <TaxTypeCode>All Bu</TaxTypeCode>
+                        <WeightChargeTax>0.000</WeightChargeTax>
+                    </WeightChargeTaxDet>
+                </QtdSInAdCur>
+                <QtdSInAdCur>
+                    <TotalTaxAmount>0.000</TotalTaxAmount>
+                    <WeightChargeTax>0.000</WeightChargeTax>
+                    <WeightChargeTaxDet>
+                        <TaxTypeRate>0.000</TaxTypeRate>
+                        <TaxTypeCode>All Bu</TaxTypeCode>
+                        <WeightChargeTax>0.000</WeightChargeTax>
+                    </WeightChargeTaxDet>
+                </QtdSInAdCur>
+                <WeightChargeTaxDet>
+                    <TaxTypeRate>0.000</TaxTypeRate>
+                    <TaxTypeCode>All Bu</TaxTypeCode>
+                    <WeightChargeTax>0.000</WeightChargeTax>
+                    <BaseAmt>116.420</BaseAmt>
+                </WeightChargeTaxDet>
+                <WeightChargeTaxDet>
+                    <TaxTypeRate>0.000</TaxTypeRate>
+                    <TaxTypeCode>All Bu</TaxTypeCode>
+                    <WeightChargeTax>0.000</WeightChargeTax>
+                </WeightChargeTaxDet>
+                <WeightChargeTaxDet>
+                    <TaxTypeRate>0.000</TaxTypeRate>
+                    <TaxTypeCode>All Bu</TaxTypeCode>
+                    <WeightChargeTax>0.000</WeightChargeTax>
+                </WeightChargeTaxDet>
+                <PickupWindowEarliestTime>09:00:00</PickupWindowEarliestTime>
+                <PickupWindowLatestTime>19:30:00</PickupWindowLatestTime>
+                <BookingCutoffOffset>PT1H30M</BookingCutoffOffset>
+            </QtdShp>
+        </BkgDetails>
+        <Srvs>
+            <Srv>
+                <GlobalProductCode>P</GlobalProductCode>
+                <MrkSrv>
+                    <LocalProductCode>S</LocalProductCode>
+                    <ProductShortName>EXPRESS WORLDWIDE</ProductShortName>
+                    <LocalProductName>EXPRESS WORLDWIDE NONDOC</LocalProductName>
+                    <ProductDesc>EXPRESS WORLDWIDE NONDOC</ProductDesc>
+                    <NetworkTypeCode>TD</NetworkTypeCode>
+                    <POfferedCustAgreement>N</POfferedCustAgreement>
+                    <TransInd>Y</TransInd>
+                    <LocalProductCtryCd>BE</LocalProductCtryCd>
+                    <GlobalServiceType>P</GlobalServiceType>
+                    <LocalServiceName>EXPRESS WORLDWIDE NONDOC</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>II</LocalServiceType>
+                    <GlobalServiceName>SHIPMENT INSURANCE</GlobalServiceName>
+                    <LocalServiceTypeName>SHIPMENT INSURANCE</LocalServiceTypeName>
+                    <SOfferedCustAgreement>N</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <MrkSrvInd>Y</MrkSrvInd>
+                    <GlobalServiceType>II</GlobalServiceType>
+                    <LocalServiceName>SHIPMENT INSURANCE</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>FF</LocalServiceType>
+                    <GlobalServiceName>FUEL SURCHARGE</GlobalServiceName>
+                    <LocalServiceTypeName>FUEL SURCHARGE</LocalServiceTypeName>
+                    <ServiceDesc>FUEL SURCHARGE</ServiceDesc>
+                    <SOfferedCustAgreement>N</SOfferedCustAgreement>
+                    <ChargeCodeType>SCH</ChargeCodeType>
+                    <MrkSrvInd>N</MrkSrvInd>
+                    <GlobalProductDesc>FUEL SURCHARGE</GlobalProductDesc>
+                    <GlobalServiceType>FF</GlobalServiceType>
+                    <LocalServiceName>FUEL SURCHARGE</LocalServiceName>
+                </MrkSrv>
+            </Srv>
+        </Srvs>
+        <Note>
+            <ActionStatus>Success</ActionStatus>
+        </Note>
+    </GetQuoteResponse></res:DCTResponse><!-- ServiceInvocationId:20180226065349_aaa4_3f5dc37e-cff9-4fcd-bb43-938822f7fa80 -->

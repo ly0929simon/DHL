@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><res:DCTResponse xmlns:res='http://www.dhl.com' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation= 'http://www.dhl.com DCT-Response.xsd'>
+    <GetCapabilityResponse>
+        <Response>
+            <ServiceHeader>
+                <MessageTime>2018-02-26T04:34:52.505+01:00</MessageTime>
+                <MessageReference>1234567890123456789012345678901</MessageReference>
+                <SiteID>CustomerSiteID</SiteID>
+            </ServiceHeader>
+        </Response>
+        <BkgDetails>
+            <QtdShp>
+                <OriginServiceArea>
+                    <FacilityCode>PR3</FacilityCode>
+                    <ServiceAreaCode>PRG</ServiceAreaCode>
+                </OriginServiceArea>
+                <DestinationServiceArea>
+                    <FacilityCode>ST2</FacilityCode>
+                    <ServiceAreaCode>STO</ServiceAreaCode>
+                </DestinationServiceArea>
+                <GlobalProductCode>C</GlobalProductCode>
+                <LocalProductCode>C</LocalProductCode>
+                <ProductShortName>MEDICAL EXPRESS</ProductShortName>
+                <LocalProductName>MEDICAL EXPRESS</LocalProductName>
+                <NetworkTypeCode>TD</NetworkTypeCode>
+                <POfferedCustAgreement>Y</POfferedCustAgreement>
+                <TransInd>N</TransInd>
+                <PickupDate>2018-02-27</PickupDate>
+                <PickupCutoffTime>PT18H</PickupCutoffTime>
+                <BookingTime>PT17H</BookingTime>
+                <TotalTransitDays>1</TotalTransitDays>
+                <PickupPostalLocAddDays>0</PickupPostalLocAddDays>
+                <DeliveryPostalLocAddDays>0</DeliveryPostalLocAddDays>
+                <PickupNonDHLCourierCode> </PickupNonDHLCourierCode>
+                <DeliveryNonDHLCourierCode> </DeliveryNonDHLCourierCode>
+                <DeliveryDate>
+                    <DeliveryType>QDDC</DeliveryType>
+                    <DlvyDateTime>2018-02-28 09:00:00</DlvyDateTime>
+                    <DeliveryDateTimeOffset>+00:00</DeliveryDateTimeOffset>
+                </DeliveryDate>
+                <DeliveryTime>PT9H</DeliveryTime>
+                <DimensionalWeight>5.400</DimensionalWeight>
+                <WeightUnit>KG</WeightUnit>
+                <PickupDayOfWeekNum>2</PickupDayOfWeekNum>
+                <DestinationDayOfWeekNum>3</DestinationDayOfWeekNum>
+                <PickupWindowEarliestTime>09:00:00</PickupWindowEarliestTime>
+                <PickupWindowLatestTime>18:00:00</PickupWindowLatestTime>
+                <BookingCutoffOffset>PT1H</BookingCutoffOffset>
+            </QtdShp>
+            <QtdShp>
+                <OriginServiceArea>
+                    <FacilityCode>PR3</FacilityCode>
+                    <ServiceAreaCode>PRG</ServiceAreaCode>
+                </OriginServiceArea>
+                <DestinationServiceArea>
+                    <FacilityCode>ST2</FacilityCode>
+                    <ServiceAreaCode>STO</ServiceAreaCode>
+                </DestinationServiceArea>
+                <GlobalProductCode>K</GlobalProductCode>
+                <LocalProductCode>K</LocalProductCode>
+                <ProductShortName>EXPRESS 9:00</ProductShortName>
+                <LocalProductName>EXPRESS 9:00 DOC</LocalProductName>
+                <NetworkTypeCode>TD</NetworkTypeCode>
+                <POfferedCustAgreement>N</POfferedCustAgreement>
+                <TransInd>Y</TransInd>
+                <PickupDate>2018-02-27</PickupDate>
+                <PickupCutoffTime>PT18H</PickupCutoffTime>
+                <BookingTime>PT17H</BookingTime>
+                <TotalTransitDays>1</TotalTransitDays>
+                <PickupPostalLocAddDays>0</PickupPostalLocAddDays>
+                <DeliveryPostalLocAddDays>0</DeliveryPostalLocAddDays>
+                <PickupNonDHLCourierCode> </PickupNonDHLCourierCode>
+                <DeliveryNonDHLCourierCode> </DeliveryNonDHLCourierCode>
+                <DeliveryDate>
+                    <DeliveryType>QDDC</DeliveryType>
+                    <DlvyDateTime>2018-02-28 09:00:00</DlvyDateTime>
+                    <DeliveryDateTimeOffset>+00:00</DeliveryDateTimeOffset>
+                </DeliveryDate>
+                <DeliveryTime>PT9H</DeliveryTime>
+                <DimensionalWeight>5.400</DimensionalWeight>
+                <WeightUnit>KG</WeightUnit>
+                <PickupDayOfWeekNum>2</PickupDayOfWeekNum>
+                <DestinationDayOfWeekNum>3</DestinationDayOfWeekNum>
+                <PickupWindowEarliestTime>09:00:00</PickupWindowEarliestTime>
+                <PickupWindowLatestTime>18:00:00</PickupWindowLatestTime>
+                <BookingCutoffOffset>PT1H</BookingCutoffOffset>
+            </QtdShp>
+            <QtdShp>
+                <OriginServiceArea>
+                    <FacilityCode>PR3</FacilityCode>
+                    <ServiceAreaCode>PRG</ServiceAreaCode>
+                </OriginServiceArea>
+                <DestinationServiceArea>
+                    <FacilityCode>ST2</FacilityCode>
+                    <ServiceAreaCode>STO</ServiceAreaCode>
+                </DestinationServiceArea>
+                <GlobalProductCode>T</GlobalProductCode>
+                <LocalProductCode>T</LocalProductCode>
+                <ProductShortName>EXPRESS 12:00</ProductShortName>
+                <LocalProductName>EXPRESS 12:00 DOC</LocalProductName>
+                <NetworkTypeCode>TD</NetworkTypeCode>
+                <POfferedCustAgreement>N</POfferedCustAgreement>
+                <TransInd>Y</TransInd>
+                <PickupDate>2018-02-27</PickupDate>
+                <PickupCutoffTime>PT18H</PickupCutoffTime>
+                <BookingTime>PT17H</BookingTime>
+                <TotalTransitDays>1</TotalTransitDays>
+                <PickupPostalLocAddDays>0</PickupPostalLocAddDays>
+                <DeliveryPostalLocAddDays>0</DeliveryPostalLocAddDays>
+                <PickupNonDHLCourierCode> </PickupNonDHLCourierCode>
+                <DeliveryNonDHLCourierCode> </DeliveryNonDHLCourierCode>
+                <DeliveryDate>
+                    <DeliveryType>QDDC</DeliveryType>
+                    <DlvyDateTime>2018-02-28 12:00:00</DlvyDateTime>
+                    <DeliveryDateTimeOffset>+00:00</DeliveryDateTimeOffset>
+                </DeliveryDate>
+                <DeliveryTime>PT12H</DeliveryTime>
+                <DimensionalWeight>5.400</DimensionalWeight>
+                <WeightUnit>KG</WeightUnit>
+                <PickupDayOfWeekNum>2</PickupDayOfWeekNum>
+                <DestinationDayOfWeekNum>3</DestinationDayOfWeekNum>
+                <PickupWindowEarliestTime>09:00:00</PickupWindowEarliestTime>
+                <PickupWindowLatestTime>18:00:00</PickupWindowLatestTime>
+                <BookingCutoffOffset>PT1H</BookingCutoffOffset>
+            </QtdShp>
+            <QtdShp>
+                <OriginServiceArea>
+                    <FacilityCode>PR3</FacilityCode>
+                    <ServiceAreaCode>PRG</ServiceAreaCode>
+                </OriginServiceArea>
+                <DestinationServiceArea>
+                    <FacilityCode>ST2</FacilityCode>
+                    <ServiceAreaCode>STO</ServiceAreaCode>
+                </DestinationServiceArea>
+                <GlobalProductCode>U</GlobalProductCode>
+                <LocalProductCode>U</LocalProductCode>
+                <ProductShortName>EXPRESS WORLDWIDE</ProductShortName>
+                <LocalProductName>EXPRESS WORLDWIDE EU</LocalProductName>
+                <NetworkTypeCode>TD</NetworkTypeCode>
+                <POfferedCustAgreement>N</POfferedCustAgreement>
+                <TransInd>Y</TransInd>
+                <PickupDate>2018-02-27</PickupDate>
+                <PickupCutoffTime>PT18H</PickupCutoffTime>
+                <BookingTime>PT17H</BookingTime>
+                <TotalTransitDays>1</TotalTransitDays>
+                <PickupPostalLocAddDays>0</PickupPostalLocAddDays>
+                <DeliveryPostalLocAddDays>0</DeliveryPostalLocAddDays>
+                <PickupNonDHLCourierCode> </PickupNonDHLCourierCode>
+                <DeliveryNonDHLCourierCode> </DeliveryNonDHLCourierCode>
+                <DeliveryDate>
+                    <DeliveryType>QDDC</DeliveryType>
+                    <DlvyDateTime>2018-02-28 11:59:00</DlvyDateTime>
+                    <DeliveryDateTimeOffset>+00:00</DeliveryDateTimeOffset>
+                </DeliveryDate>
+                <DeliveryTime>PT23H59M</DeliveryTime>
+                <DimensionalWeight>5.400</DimensionalWeight>
+                <WeightUnit>KG</WeightUnit>
+                <PickupDayOfWeekNum>2</PickupDayOfWeekNum>
+                <DestinationDayOfWeekNum>3</DestinationDayOfWeekNum>
+                <PickupWindowEarliestTime>09:00:00</PickupWindowEarliestTime>
+                <PickupWindowLatestTime>18:00:00</PickupWindowLatestTime>
+                <BookingCutoffOffset>PT1H</BookingCutoffOffset>
+            </QtdShp>
+            <QtdShp>
+                <OriginServiceArea>
+                    <FacilityCode>PR3</FacilityCode>
+                    <ServiceAreaCode>PRG</ServiceAreaCode>
+                </OriginServiceArea>
+                <DestinationServiceArea>
+                    <FacilityCode>ST2</FacilityCode>
+                    <ServiceAreaCode>STO</ServiceAreaCode>
+                </DestinationServiceArea>
+                <GlobalProductCode>7</GlobalProductCode>
+                <LocalProductCode>7</LocalProductCode>
+                <ProductShortName>EXPRESS EASY</ProductShortName>
+                <LocalProductName>EXPRESS EASY DOC</LocalProductName>
+                <NetworkTypeCode>TD</NetworkTypeCode>
+                <POfferedCustAgreement>Y</POfferedCustAgreement>
+                <TransInd>N</TransInd>
+                <PickupDate>2018-02-27</PickupDate>
+                <PickupCutoffTime>PT18H</PickupCutoffTime>
+                <BookingTime>PT17H</BookingTime>
+                <TotalTransitDays>1</TotalTransitDays>
+                <PickupPostalLocAddDays>0</PickupPostalLocAddDays>
+                <DeliveryPostalLocAddDays>0</DeliveryPostalLocAddDays>
+                <PickupNonDHLCourierCode> </PickupNonDHLCourierCode>
+                <DeliveryNonDHLCourierCode> </DeliveryNonDHLCourierCode>
+                <DeliveryDate>
+                    <DeliveryType>QDDC</DeliveryType>
+                    <DlvyDateTime>2018-02-28 11:59:00</DlvyDateTime>
+                    <DeliveryDateTimeOffset>+00:00</DeliveryDateTimeOffset>
+                </DeliveryDate>
+                <DeliveryTime>PT23H59M</DeliveryTime>
+                <DimensionalWeight>2.700</DimensionalWeight>
+                <WeightUnit>KG</WeightUnit>
+                <PickupDayOfWeekNum>2</PickupDayOfWeekNum>
+                <DestinationDayOfWeekNum>3</DestinationDayOfWeekNum>
+                <PickupWindowEarliestTime>09:00:00</PickupWindowEarliestTime>
+                <PickupWindowLatestTime>18:00:00</PickupWindowLatestTime>
+                <BookingCutoffOffset>PT1H</BookingCutoffOffset>
+            </QtdShp>
+            <QtdShp>
+                <OriginServiceArea>
+                    <FacilityCode>PR3</FacilityCode>
+                    <ServiceAreaCode>PRG</ServiceAreaCode>
+                </OriginServiceArea>
+                <DestinationServiceArea>
+                    <FacilityCode>ST2</FacilityCode>
+                    <ServiceAreaCode>STO</ServiceAreaCode>
+                </DestinationServiceArea>
+                <GlobalProductCode>W</GlobalProductCode>
+                <LocalProductCode>W</LocalProductCode>
+                <ProductShortName>ECONOMY SELECT</ProductShortName>
+                <LocalProductName>ECONOMY SELECT EU</LocalProductName>
+                <NetworkTypeCode>DD</NetworkTypeCode>
+                <POfferedCustAgreement>N</POfferedCustAgreement>
+                <TransInd>Y</TransInd>
+                <PickupDate>2018-02-27</PickupDate>
+                <PickupCutoffTime>PT18H</PickupCutoffTime>
+                <BookingTime>PT16H</BookingTime>
+                <TotalTransitDays>3</TotalTransitDays>
+                <PickupPostalLocAddDays>0</PickupPostalLocAddDays>
+                <DeliveryPostalLocAddDays>0</DeliveryPostalLocAddDays>
+                <PickupNonDHLCourierCode> </PickupNonDHLCourierCode>
+                <DeliveryNonDHLCourierCode> </DeliveryNonDHLCourierCode>
+                <DeliveryDate>
+                    <DeliveryType>QDDC</DeliveryType>
+                    <DlvyDateTime>2018-03-02 11:59:00</DlvyDateTime>
+                    <DeliveryDateTimeOffset>+00:00</DeliveryDateTimeOffset>
+                </DeliveryDate>
+                <DeliveryTime>PT23H59M</DeliveryTime>
+                <DimensionalWeight>5.400</DimensionalWeight>
+                <WeightUnit>KG</WeightUnit>
+                <PickupDayOfWeekNum>2</PickupDayOfWeekNum>
+                <DestinationDayOfWeekNum>5</DestinationDayOfWeekNum>
+                <PickupWindowEarliestTime>09:00:00</PickupWindowEarliestTime>
+                <PickupWindowLatestTime>18:00:00</PickupWindowLatestTime>
+                <BookingCutoffOffset>PT2H</BookingCutoffOffset>
+            </QtdShp>
+        </BkgDetails>
+        <Srvs>
+            <Srv>
+                <GlobalProductCode>C</GlobalProductCode>
+                <MrkSrv>
+                    <LocalProductCode>C</LocalProductCode>
+                    <ProductShortName>MEDICAL EXPRESS</ProductShortName>
+                    <LocalProductName>MEDICAL EXPRESS</LocalProductName>
+                    <ProductDesc>MEDICAL EXPRESS</ProductDesc>
+                    <NetworkTypeCode>TD</NetworkTypeCode>
+                    <POfferedCustAgreement>Y</POfferedCustAgreement>
+                    <TransInd>N</TransInd>
+                    <LocalProductCtryCd>CZ</LocalProductCtryCd>
+                    <GlobalServiceType>C</GlobalServiceType>
+                    <LocalServiceName>MEDICAL EXPRESS</LocalServiceName>
+                </MrkSrv>
+            </Srv>
+            <Srv>
+                <GlobalProductCode>K</GlobalProductCode>
+                <MrkSrv>
+                    <LocalProductCode>K</LocalProductCode>
+                    <ProductShortName>EXPRESS 9:00</ProductShortName>
+                    <LocalProductName>EXPRESS 9:00 DOC</LocalProductName>
+                    <ProductDesc>EXPRESS 9:00 DOC</ProductDesc>
+                    <NetworkTypeCode>TD</NetworkTypeCode>
+                    <POfferedCustAgreement>N</POfferedCustAgreement>
+                    <TransInd>Y</TransInd>
+                    <LocalProductCtryCd>CZ</LocalProductCtryCd>
+                    <GlobalServiceType>K</GlobalServiceType>
+                    <LocalServiceName>EXPRESS 9:00 DOC</LocalServiceName>
+                </MrkSrv>
+            </Srv>
+            <Srv>
+                <GlobalProductCode>T</GlobalProductCode>
+                <MrkSrv>
+                    <LocalProductCode>T</LocalProductCode>
+                    <ProductShortName>EXPRESS 12:00</ProductShortName>
+                    <LocalProductName>EXPRESS 12:00 DOC</LocalProductName>
+                    <ProductDesc>EXPRESS 12:00 DOC</ProductDesc>
+                    <NetworkTypeCode>TD</NetworkTypeCode>
+                    <POfferedCustAgreement>N</POfferedCustAgreement>
+                    <TransInd>Y</TransInd>
+                    <LocalProductCtryCd>CZ</LocalProductCtryCd>
+                    <GlobalServiceType>T</GlobalServiceType>
+                    <LocalServiceName>EXPRESS 12:00 DOC</LocalServiceName>
+                </MrkSrv>
+            </Srv>
+            <Srv>
+                <GlobalProductCode>U</GlobalProductCode>
+                <MrkSrv>
+                    <LocalProductCode>U</LocalProductCode>
+                    <ProductShortName>EXPRESS WORLDWIDE</ProductShortName>
+                    <LocalProductName>EXPRESS WORLDWIDE EU</LocalProductName>
+                    <ProductDesc>EXPRESS WORLDWIDE EU</ProductDesc>
+                    <NetworkTypeCode>TD</NetworkTypeCode>
+                    <POfferedCustAgreement>N</POfferedCustAgreement>
+                    <TransInd>Y</TransInd>
+                    <LocalProductCtryCd>CZ</LocalProductCtryCd>
+                    <GlobalServiceType>U</GlobalServiceType>
+                    <LocalServiceName>EXPRESS WORLDWIDE EU</LocalServiceName>
+                </MrkSrv>
+            </Srv>
+            <Srv>
+                <GlobalProductCode>7</GlobalProductCode>
+                <MrkSrv>
+                    <LocalProductCode>7</LocalProductCode>
+                    <ProductShortName>EXPRESS EASY</ProductShortName>
+                    <LocalProductName>EXPRESS EASY DOC</LocalProductName>
+                    <ProductDesc>EXPRESS EASY DOC</ProductDesc>
+                    <NetworkTypeCode>TD</NetworkTypeCode>
+                    <POfferedCustAgreement>Y</POfferedCustAgreement>
+                    <TransInd>N</TransInd>
+                    <LocalProductCtryCd>CZ</LocalProductCtryCd>
+                    <GlobalServiceType>7</GlobalServiceType>
+                    <LocalServiceName>EXPRESS EASY DOC</LocalServiceName>
+                </MrkSrv>
+            </Srv>
+            <Srv>
+                <GlobalProductCode>W</GlobalProductCode>
+                <MrkSrv>
+                    <LocalProductCode>W</LocalProductCode>
+                    <ProductShortName>ECONOMY SELECT</ProductShortName>
+                    <LocalProductName>ECONOMY SELECT EU</LocalProductName>
+                    <ProductDesc>ECONOMY SELECT EU</ProductDesc>
+                    <NetworkTypeCode>DD</NetworkTypeCode>
+                    <POfferedCustAgreement>N</POfferedCustAgreement>
+                    <TransInd>Y</TransInd>
+                    <LocalProductCtryCd>CZ</LocalProductCtryCd>
+                    <GlobalServiceType>W</GlobalServiceType>
+                    <LocalServiceName>ECONOMY SELECT EU</LocalServiceName>
+                </MrkSrv>
+            </Srv>
+        </Srvs>
+        <Note>
+            <ActionStatus>Success</ActionStatus>
+        </Note>
+    </GetCapabilityResponse></res:DCTResponse><!-- ServiceInvocationId:20180226043451_aaa4_6f0d2464-551e-41fd-bf4a-3c5e33e71869 -->

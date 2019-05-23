@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><res:ErrorResponse xmlns:res='http://www.dhl.com' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation= 'http://www.dhl.com err-res.xsd'>
+    <Response>
+        <ServiceHeader>
+            <MessageTime>2018-02-06T04:33:29+01:00</MessageTime>
+            <SiteID>CustomerSiteID</SiteID>
+            <Password>CustomerPassword</Password>
+        </ServiceHeader>
+        <Status>
+            <ActionStatus>Error</ActionStatus>
+            <Condition>
+                <ConditionCode>111</ConditionCode>
+                <ConditionData>Error in parsing request XML:Error: The
+                    content of element type &quot;ServiceHeader&quot;
+                    must match
+                    &quot;(MessageTime,GMTOffset?,MessageReference,SiteID,Password)&quot;.
+                    at line 10, column 34</ConditionData>
+            </Condition>
+        </Status>
+    </Response></res:ErrorResponse><!-- ServiceInvocationId:20180206043329_aaa4_10307111-75f3-4efb-9d4f-d977fb9043eb -->

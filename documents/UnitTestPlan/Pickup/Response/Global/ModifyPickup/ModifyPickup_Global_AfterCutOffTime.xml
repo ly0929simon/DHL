@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><res:PickupErrorResponse xmlns:res='http://www.dhl.com' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation= 'http://www.dhl.com pickup-err-res.xsd'>
+    <Response>
+        <ServiceHeader>
+            <SiteID>CustomerSiteID</SiteID>
+        </ServiceHeader>
+        <Status>
+            <ActionStatus>Error</ActionStatus>
+            <Condition>
+                <ConditionCode>202115</ConditionCode>
+                <ConditionData>Ready time cannot be greater than close time</ConditionData>
+            </Condition>
+            <Condition>
+                <ConditionCode>202110</ConditionCode>
+                <ConditionData>Close Time must be later than ready time</ConditionData>
+            </Condition>
+        </Status>
+    </Response></res:PickupErrorResponse><!-- ServiceInvocationId:20180205122354_aaa4_80ac09dd-843f-4a05-9bbf-8ec1bceb6ff1 -->

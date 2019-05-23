@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><res:ErrorResponse xmlns:res='http://www.dhl.com' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation= 'http://www.dhl.com err-res.xsd'>
+    <Response>
+        <ServiceHeader>
+            <MessageTime>2018-02-27T10:44:07+01:00</MessageTime>
+            <MessageReference>Shipmnt_AP_CN_lblimg_62_sch_PLT</MessageReference>
+            <SiteID>CustomerSiteID</SiteID>
+            <Password>CustomerPassword</Password>
+        </ServiceHeader>
+        <Status>
+            <ActionStatus>Error</ActionStatus>
+            <Condition>
+                <ConditionCode>111</ConditionCode>
+                <ConditionData>Error in parsing request XML:Error:
+                    Datatype error: In element
+                    &apos;GlobalProductCode&apos; : Value &apos;k&apos;
+                    does not match regular expression facet
+                    &apos;([A-Z0-9])*&apos;.. at line 255, column 44</ConditionData>
+            </Condition>
+        </Status>
+    </Response></res:ErrorResponse><!-- ServiceInvocationId:20180227104407_5793_49bfb9b7-7fc9-4aa1-9cb8-b137a5551d65 -->

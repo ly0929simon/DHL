@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><res:ErrorResponse xmlns:res='http://www.dhl.com' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation= 'http://www.dhl.com err-res.xsd'>
+    <Response>
+        <ServiceHeader>
+            <MessageTime>2018-02-21T04:55:52+01:00</MessageTime>
+            <MessageReference>Routing_Request_Global_AP_v62__</MessageReference>
+			<SiteID>CustomerSiteID</SiteID>
+			<Password>CustomerPassword</Password>
+        </ServiceHeader>
+        <Status>
+            <ActionStatus>Error</ActionStatus>
+            <Condition>
+                <ConditionCode>111</ConditionCode>
+                <ConditionData>Error in parsing request XML:Error:
+                    Datatype error: In element &apos;RequestType&apos; :
+                    Value &apos;F&apos; must be one of [O, D]. at line
+                    17, column 31</ConditionData>
+            </Condition>
+        </Status>
+    </Response></res:ErrorResponse><!-- ServiceInvocationId:20180221045551_aaa4_d899996a-b6c0-4a6b-97df-de007f30b182 -->

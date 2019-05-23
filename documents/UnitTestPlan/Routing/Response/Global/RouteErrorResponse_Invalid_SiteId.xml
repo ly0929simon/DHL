@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><res:ErrorResponse xmlns:res='http://www.dhl.com' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation= 'http://www.dhl.com err-res.xsd'>
+    <Response>
+        <ServiceHeader>
+            <MessageTime>2018-02-21T04:58:55+01:00</MessageTime>
+            <MessageReference>Routing_Request_Global_AP_v62__</MessageReference>
+			<SiteID>CustomerSiteID_Invalid</SiteID>
+			<Password>CustomerPassword_Invalid</Password>
+        </ServiceHeader>
+        <Status>
+            <ActionStatus>Error</ActionStatus>
+            <Condition>
+                <ConditionCode>100</ConditionCode>
+                <ConditionData>Validation Failure:Site Id is wrong</ConditionData>
+            </Condition>
+        </Status>
+    </Response></res:ErrorResponse><!-- ServiceInvocationId:20180221045855_aaa4_91e4db7f-bcf9-435e-930d-bdbde4b06c2f -->

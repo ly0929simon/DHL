@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><res:ErrorResponse xmlns:res='http://www.dhl.com' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation= 'http://www.dhl.com err-res.xsd'>
+    <Response>
+        <ServiceHeader>
+            <MessageTime>2018-02-27T10:32:40+01:00</MessageTime>
+            <MessageReference>Shipmnt_AM_US_lblimg_62_sch_PLT</MessageReference>
+            <SiteID>CustomerSiteID</SiteID>
+            <Password>CustomerPassword</Password>
+        </ServiceHeader>
+        <Status>
+            <ActionStatus>Error</ActionStatus>
+            <Condition>
+                <ConditionCode>111</ConditionCode>
+                <ConditionData>Error in parsing request XML:Error:
+                    Datatype error: In element
+                    &apos;DutyPaymentType&apos; : Value &apos;O&apos;
+                    must be one of [S, R, T]. at line 23, column 40</ConditionData>
+            </Condition>
+        </Status>
+    </Response></res:ErrorResponse><!-- ServiceInvocationId:20180227103240_5793_0b40291b-56df-4ac5-a848-a99d556fa074 -->

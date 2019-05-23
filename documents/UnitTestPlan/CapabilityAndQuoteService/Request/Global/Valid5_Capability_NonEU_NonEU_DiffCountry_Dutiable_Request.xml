@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<p:DCTRequest xmlns:p="http://www.dhl.com" xmlns:p1="http://www.dhl.com/datatypes" xmlns:p2="http://www.dhl.com/DCTRequestdatatypes" schemaVersion="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.dhl.com DCT-req.xsd ">
+  <GetCapability>
+    <Request>
+      <ServiceHeader>
+        <MessageTime>2002-08-20T11:28:56.000-08:00</MessageTime>
+        <MessageReference>1234567890123456789012345678901</MessageReference>
+		<SiteID>CustomerSiteID</SiteID>
+		<Password>CustomerPassword</Password>
+      </ServiceHeader>
+	  <MetaData>
+			<SoftwareName>3PV</SoftwareName>
+			<SoftwareVersion>1.0</SoftwareVersion>
+		</MetaData>
+    </Request>
+    <From>
+      <CountryCode>MY</CountryCode>
+      <Postalcode>57000</Postalcode>
+	  <City>Kuala Lumpur</City>
+    </From>
+    <BkgDetails>
+      <PaymentCountryCode>MY</PaymentCountryCode>
+      <Date>2017-11-10</Date>
+      <ReadyTime>PT10H21M</ReadyTime>
+      <ReadyTimeGMTOffset>+01:00</ReadyTimeGMTOffset>
+      <DimensionUnit>CM</DimensionUnit>
+      <WeightUnit>KG</WeightUnit>
+      <Pieces>
+        <Piece>
+          <PieceID>1</PieceID>
+          <Height>30</Height>
+          <Depth>20</Depth>
+          <Width>10</Width>
+          <Weight>10.0</Weight>
+        </Piece>
+      </Pieces>      
+      <IsDutiable>Y</IsDutiable>
+      <NetworkTypeCode>AL</NetworkTypeCode>
+    </BkgDetails>
+    <To>
+      <CountryCode>AU</CountryCode>
+      <Postalcode>2020</Postalcode>
+	  <City>Mascot</City>
+    </To>
+   <Dutiable>
+      <DeclaredCurrency>MYR</DeclaredCurrency>
+      <DeclaredValue>1002.00</DeclaredValue>
+    </Dutiable>
+  </GetCapability>
+</p:DCTRequest>

@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<xsd:schema targetNamespace="http://www.dhl.com" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.dhl.com" xmlns:dhl="http://www.dhl.com/datatypes_global" xmlns:dhlPickup="http://www.dhl.com/pickupdatatypes_global" elementFormDefault="unqualified">
+
+	<xsd:import namespace="http://www.dhl.com/datatypes_global" schemaLocation="datatypes_global.xsd"/> 
+	<xsd:import namespace="http://www.dhl.com/pickupdatatypes_global" schemaLocation="pickupdatatypes_global.xsd"/> 
+	
+	<xsd:element name="ModifyPURequest">
+		<xsd:annotation>
+			<xsd:documentation>Root element of modify Pickup Request</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="Request" type="dhl:Request"/>
+				<xsd:element name="RegionCode" type="dhl:RegionCode"/>
+				<xsd:element name="ConfirmationNumber">
+					<xsd:annotation>
+						<xsd:documentation>Confirmation number of the pickup that needs to be modified</xsd:documentation>
+					</xsd:annotation>
+					<xsd:simpleType>
+						<xsd:restriction base="xsd:positiveInteger">
+							<xsd:minInclusive value="1"/>
+							<xsd:maxInclusive value="999999999"/>
+						</xsd:restriction>
+					</xsd:simpleType>
+				</xsd:element>
+				<xsd:element name="Requestor" type="dhlPickup:Requestor"/>
+				<xsd:element name="Place" type="dhlPickup:Place"/>
+				<xsd:element name="Pickup" type="dhlPickup:Pickup"/>
+				<xsd:element name="PickupContact" type="dhlPickup:contact">
+					<xsd:annotation>
+						<xsd:documentation>Contact information for pickup location</xsd:documentation>
+					</xsd:annotation>
+				</xsd:element>
+				<xsd:element name="OriginSvcArea" minOccurs="0">
+					<xsd:annotation>
+						<xsd:documentation>Origin Service Area</xsd:documentation>
+					</xsd:annotation>
+					<xsd:simpleType>
+						<xsd:restriction base="xsd:string">
+							<xsd:maxLength value="5"/>
+						</xsd:restriction>
+					</xsd:simpleType>
+				</xsd:element>
+			</xsd:sequence>
+			<xsd:attribute name="schemaVersion" type="xsd:decimal" use="required" fixed="1.0"/>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

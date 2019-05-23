@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><res:RouteResponse xmlns:res='http://www.dhl.com' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation= 'http://www.dhl.com routing-res.xsd'>
+    <Response>
+        <ServiceHeader>
+            <MessageTime>2018-02-21T03:57:20+01:00</MessageTime>
+            <MessageReference>Routing_Request_Global_AP_v62__</MessageReference>
+            <SiteID>CustomerSiteID</SiteID>
+        </ServiceHeader>
+    </Response>
+    <Note>
+        <ActionNote>Success</ActionNote>
+    </Note>
+    <GMTNegativeIndicator>N</GMTNegativeIndicator>
+    <GMTOffset>08:00</GMTOffset>
+    <RegionCode>AP</RegionCode>
+    <ServiceArea>
+        <ServiceAreaCode>KUL</ServiceAreaCode>
+        <Description>KUL|0|GMT8:00|KUALA LUMPUR - MALAYSIA|MY</Description>
+    </ServiceArea></res:RouteResponse><!-- ServiceInvocationId:20180221035719_aaa4_773c8217-1c16-4aa6-952f-c9908314b93c -->

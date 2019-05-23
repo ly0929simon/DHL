@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><res:PickupErrorResponse xmlns:res='http://www.dhl.com' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation= 'http://www.dhl.com pickup-err-res.xsd'>
+    <Response>
+        <ServiceHeader>
+            <SiteID>CustomerSiteID</SiteID>
+        </ServiceHeader>
+        <Status>
+            <ActionStatus>Error</ActionStatus>
+            <Condition>
+                <ConditionCode>100002</ConditionCode>
+                <ConditionData>Service operation request message data
+                    validation failed</ConditionData>
+            </Condition>
+        </Status>
+    </Response></res:PickupErrorResponse><!-- ServiceInvocationId:20180205121949_aaa4_ced3c474-e823-47f4-b632-d23a8961b54d -->

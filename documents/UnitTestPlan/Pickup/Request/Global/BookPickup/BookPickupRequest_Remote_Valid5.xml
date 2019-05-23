@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<req:BookPURequest xmlns:req="http://www.dhl.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.dhl.com book-pickup-global-req_EA.xsd" schemaVersion="3.0">
+	<Request>
+		<ServiceHeader>
+			<MessageTime>2017-02-27T11:28:56.000-08:00</MessageTime>
+			<MessageReference>1234567890123456789012345678901</MessageReference>
+            <SiteID>CustomerSiteID</SiteID>
+			<Password>CustomerPassword</Password>
+		</ServiceHeader>
+		<MetaData>
+			<SoftwareName>XMLPI</SoftwareName>
+			<SoftwareVersion>3.0</SoftwareVersion>
+		</MetaData>
+	</Request>
+	<Requestor>
+		<AccountType>D</AccountType>
+		<AccountNumber>123456789</AccountNumber>
+		<RequestorContact>
+			<PersonName>Roy</PersonName>
+			<Phone>1234567890</Phone>
+		</RequestorContact>
+		<CompanyName>DHL TEST</CompanyName>
+		<Address1>DHL EXPRESS FR</Address1>
+		<Address2>Le Rue</Address2>
+		<City>Paris</City>
+		<CountryCode>FR</CountryCode>
+		<PostalCode>75001</PostalCode>
+	</Requestor>
+	<Place>
+		<LocationType>B</LocationType>
+		<CompanyName>Test Pickup</CompanyName>
+		<Address1>DHL EXPRESS GB</Address1>
+		<Address2>A Road</Address2>
+		<PackageLocation>Reception</PackageLocation>
+		<City>LIVERPOOL</City>
+		<CountryCode>GB</CountryCode>
+		<PostalCode>L24 8RF</PostalCode>
+	</Place>
+	<Pickup>
+		<PickupDate>2018-02-06</PickupDate>
+		<PickupTypeCode>A</PickupTypeCode>
+		<ReadyByTime>10:20</ReadyByTime>
+		<CloseTime>14:20</CloseTime>
+		<Pieces>1</Pieces>
+		<RemotePickupFlag>Y</RemotePickupFlag>
+		<weight>
+			<Weight>10</Weight>
+			<WeightUnit>K</WeightUnit>
+		</weight>
+	</Pickup>
+	<PickupContact>
+		<PersonName>Kosani</PersonName>
+		<Phone>1234567890</Phone>
+	</PickupContact>
+	<ShipmentDetails>
+		<AccountType>D</AccountType>
+		<AccountNumber>123456789</AccountNumber>
+		<BillToAccountNumber>123456789</BillToAccountNumber>
+		<AWBNumber>7520067111</AWBNumber>
+		<NumberOfPieces>1</NumberOfPieces>
+		<Weight>10</Weight>
+		<WeightUnit>K</WeightUnit>
+		<GlobalProductCode>P</GlobalProductCode>
+		<LocalProductCode>P</LocalProductCode>
+		<DoorTo>DD</DoorTo>
+		<DimensionUnit>C</DimensionUnit>
+		<Pieces>
+			<Piece>
+				<Weight>10</Weight>
+				<Width>1</Width>
+				<Height>1</Height>
+				<Depth>1</Depth>
+			</Piece>
+		</Pieces>
+	</ShipmentDetails>
+	<ConsigneeDetails>
+		<CompanyName>ConsigneeCompany</CompanyName>
+		<AddressLine>ConsigneeAdd1</AddressLine>
+		<City>ConsigneeCity</City>
+		<CountryCode>FR</CountryCode>
+		<PostalCode>75001</PostalCode>
+		<Contact>
+			<PersonName>ConsigneePerson</PersonName>
+			<Phone>12345</Phone>
+		</Contact>
+	</ConsigneeDetails>
+</req:BookPURequest>

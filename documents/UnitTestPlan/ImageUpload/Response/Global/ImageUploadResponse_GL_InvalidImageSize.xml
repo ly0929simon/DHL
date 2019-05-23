@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><res:ShipmentValidateErrorResponse xmlns:res='http://www.dhl.com' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation= 'http://www.dhl.com ship-val-err-res.xsd'>
+    <Response>
+        <ServiceHeader>
+            <MessageTime>2002-08-20T11:28:56.000-08:00</MessageTime>
+            <MessageReference>1234567890123456789012345678901</MessageReference>
+            <SiteID>TestSiteID</SiteID>
+            <Password>CustomerSiteID</Password>
+        </ServiceHeader>
+        <Status>
+            <ActionStatus/>
+            <Condition>
+                <ConditionCode>PLT007</ConditionCode>
+                <ConditionData>The total image sizes exceeded the
+                    maximum image size for Paperless shipment. Please
+                    check and resubmit with correct request message.</ConditionData>
+            </Condition>
+        </Status>
+    </Response></res:ShipmentValidateErrorResponse>
+

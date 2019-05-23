@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><res:ErrorResponse xmlns:res='http://www.dhl.com' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation= 'http://www.dhl.com err-res.xsd'>
+    <Response>
+        <ServiceHeader>
+            <MessageTime>2018-02-21T04:33:04+01:00</MessageTime>
+        </ServiceHeader>
+        <Status>
+            <ActionStatus>Error</ActionStatus>
+            <Condition>
+                <ConditionCode>111</ConditionCode>
+                <ConditionData>Error in parsing request XML:The element
+                    type &quot;ns1:RouteRequest&quot; must be terminated
+                    by the matching end-tag &quot;&lt;/ns1:RouteRequest&gt;&quot;.</ConditionData>
+            </Condition>
+        </Status>
+    </Response></res:ErrorResponse><!-- ServiceInvocationId:20180221043304_aaa4_06f03907-cd29-4cd0-96d9-9c970d9f461c -->

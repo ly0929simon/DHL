@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns1:RouteRequest xmlns:ns1="http://www.dhl.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.dhl.com
+routing-global-req.xsd" schemaVersion="2.0">
+	<Request>
+		<ServiceHeader>
+			<MessageTime>2013-08-04T11:28:56.000-08:00</MessageTime>
+			<MessageReference>Routing_Request_Global_AP_v62__</MessageReference>
+			<SiteID>CustomerSiteID</SiteID>
+			<Password>CustomerPassword</Password>
+		</ServiceHeader>
+		<MetaData>
+			<SoftwareName>3PV</SoftwareName>
+			<SoftwareVersion>1.0</SoftwareVersion>
+		</MetaData>
+	</Request>
+        <RegionCode>AP</RegionCode>
+	<RequestType>D</RequestType>
+	<Address1>13, Jalan SS23/15</Address1>
+	<Address2>Taman SEA</Address2>
+	<Address3>SEA building</Address3>
+	<PostalCode>47400</PostalCode>
+	<City>Petaling Jaya</City>
+	<Division>PJ</Division>
+	<CountryCode>MY</CountryCode>
+	<CountryName>Malaysia</CountryName>
+	<OriginCountryCode>MY</OriginCountryCode>
+</ns1:RouteRequest>

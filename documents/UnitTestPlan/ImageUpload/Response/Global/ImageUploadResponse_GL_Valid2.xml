@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><res:ShipmentResponse xmlns:res='http://www.dhl.com' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation= 'http://www.dhl.com ship-val-res.xsd'>
+    <Response>
+        <ServiceHeader>
+            <MessageTime>2012-11-20T08:16:36</MessageTime>
+            <MessageReference>1234567890123456789012345678901</MessageReference>
+            <SiteID>TestSiteID</SiteID>
+        </ServiceHeader>
+    </Response>
+    <Note>
+        <ActionNote>Success</ActionNote>
+        <Condition>
+            <ConditionCode>100000</ConditionCode>
+            <ConditionData>Service operation execution finished successfully</ConditionData>
+        </Condition>
+    </Note>
+    <AirwayBillNumber>3102467610</AirwayBillNumber></res:ShipmentResponse>
+

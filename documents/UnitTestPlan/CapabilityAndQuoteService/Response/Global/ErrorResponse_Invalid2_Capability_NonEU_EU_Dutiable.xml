@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><res:ErrorResponse xmlns:res='http://www.dhl.com' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation= 'http://www.dhl.com err-res.xsd'>
+    <Response>
+        <ServiceHeader>
+            <MessageTime>2018-02-26T07:26:06+01:00</MessageTime>
+        </ServiceHeader>
+        <Status>
+            <ActionStatus>Error</ActionStatus>
+            <Condition>
+                <ConditionCode>111</ConditionCode>
+                <ConditionData>Error in parsing request XML:Error: The
+                    content of element type &quot;Request&quot; is
+                    incomplete, it must match
+                    &quot;(ServiceHeader,MetaData)&quot;. at line 4,
+                    column 16</ConditionData>
+            </Condition>
+        </Status>
+    </Response></res:ErrorResponse><!-- ServiceInvocationId:20180226072606_aaa4_3aa8b3c1-bbb5-47f9-9234-08acc62dadcc -->

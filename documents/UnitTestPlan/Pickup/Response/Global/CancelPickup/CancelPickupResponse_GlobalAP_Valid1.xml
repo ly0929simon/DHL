@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><res:CancelPUResponse xmlns:res='http://www.dhl.com' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation= 'http://www.dhl.com pickup-res.xsd'>
+    <Response>
+        <ServiceHeader>
+            <MessageTime>2018-02-05T12:31:02+01:00</MessageTime>
+            <MessageReference>000268a8-5279-4019-9f6c-75295d5c5e9d</MessageReference>
+        </ServiceHeader>
+    </Response>
+    <RegionCode>AP</RegionCode>
+    <Note>
+        <ActionNote>Success</ActionNote>
+    </Note>
+    <ConfirmationNumber>CBJ180206002200</ConfirmationNumber></res:CancelPUResponse><!-- ServiceInvocationId:20180205123101_aaa4_35ba303c-8917-4de5-bdc0-42145caf774f -->

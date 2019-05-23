@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><res:ErrorResponse xmlns:res='http://www.dhl.com' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation= 'http://www.dhl.com err-res.xsd'>
+    <Response>
+        <ServiceHeader>
+            <MessageTime>2018-02-27T10:38:10+01:00</MessageTime>
+            <MessageReference>1234567890123456789012345678901</MessageReference>
+            <SiteID>CustomerSiteID</SiteID>
+            <Password>CustomerPassword</Password>
+        </ServiceHeader>
+        <Status>
+            <ActionStatus>Error</ActionStatus>
+            <Condition>
+                <ConditionCode>111</ConditionCode>
+                <ConditionData>Error in parsing request XML:Error:
+                    Datatype error: In element &apos;CompanyName&apos; :
+                    Value &apos;IBM Malaysia Sdn Bhd IBM Malaysia Sdn
+                    Bhd IBM Malaysia Sdn601&apos; with length
+                    &apos;61&apos; exceeds maximum length facet of
+                    &apos;60&apos;.. at line 24, column 92</ConditionData>
+            </Condition>
+        </Status>
+    </Response></res:ErrorResponse><!-- ServiceInvocationId:20180227103810_186a_852bb881-1419-492f-836f-c6d8df5000ea -->

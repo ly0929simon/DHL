@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><res:ErrorResponse xmlns:res='http://www.dhl.com' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation= 'http://www.dhl.com err-res.xsd'>
+    <Response>
+        <ServiceHeader>
+            <MessageTime>2018-02-27T11:51:14+01:00</MessageTime>
+            <MessageReference>Shipmnt_AP_CN_lblimg_62_sch_PLT</MessageReference>
+            <SiteID>CustomerSiteID</SiteID>
+            <Password>CustomerPassword</Password>
+        </ServiceHeader>
+        <Status>
+            <ActionStatus>Error</ActionStatus>
+            <Condition>
+                <ConditionCode>SV059</ConditionCode>
+                <ConditionData>Shipment cannot be processed. Please
+                    provide COD Amount and COD Currency Code.</ConditionData>
+            </Condition>
+        </Status>
+    </Response></res:ErrorResponse><!-- ServiceInvocationId:20180227115113_5793_08591ded-576f-4430-bf23-548785fc38f9 -->

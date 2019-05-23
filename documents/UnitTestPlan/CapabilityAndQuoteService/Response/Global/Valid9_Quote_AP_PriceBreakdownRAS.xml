@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><res:DCTResponse xmlns:res='http://www.dhl.com' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation= 'http://www.dhl.com DCT-Response.xsd'>
+    <GetQuoteResponse>
+        <Response>
+            <ServiceHeader>
+                <MessageTime>2018-02-26T06:51:52.856+01:00</MessageTime>
+                <MessageReference>1234567890123456789012345678901</MessageReference>
+                <SiteID>CustomerSiteID</SiteID>
+            </ServiceHeader>
+        </Response>
+        <BkgDetails>
+            <QtdShp>
+                <OriginServiceArea>
+                    <FacilityCode>PNM</FacilityCode>
+                    <ServiceAreaCode>CGK</ServiceAreaCode>
+                </OriginServiceArea>
+                <DestinationServiceArea>
+                    <FacilityCode>FKS</FacilityCode>
+                    <ServiceAreaCode>NRT</ServiceAreaCode>
+                </DestinationServiceArea>
+                <GlobalProductCode>D</GlobalProductCode>
+                <LocalProductCode>D</LocalProductCode>
+                <ProductShortName>EXPRESS WORLDWIDE</ProductShortName>
+                <LocalProductName>EXPRESS WORLDWIDE DOC</LocalProductName>
+                <NetworkTypeCode>TD</NetworkTypeCode>
+                <POfferedCustAgreement>N</POfferedCustAgreement>
+                <TransInd>Y</TransInd>
+                <PickupDate>2018-02-27</PickupDate>
+                <PickupCutoffTime>PT15H</PickupCutoffTime>
+                <BookingTime>PT14H</BookingTime>
+                <ExchangeRate>0.000</ExchangeRate>
+                <WeightCharge>0</WeightCharge>
+                <WeightChargeTax>0.000</WeightChargeTax>
+                <TotalTransitDays>3</TotalTransitDays>
+                <PickupPostalLocAddDays>4</PickupPostalLocAddDays>
+                <DeliveryPostalLocAddDays>2</DeliveryPostalLocAddDays>
+                <PickupNonDHLCourierCode> </PickupNonDHLCourierCode>
+                <DeliveryNonDHLCourierCode> </DeliveryNonDHLCourierCode>
+                <DeliveryDate>
+                    <DeliveryType>QDDC</DeliveryType>
+                    <DlvyDateTime>2018-03-08 11:59:00</DlvyDateTime>
+                    <DeliveryDateTimeOffset>+00:00</DeliveryDateTimeOffset>
+                </DeliveryDate>
+                <DeliveryTime>PT23H59M</DeliveryTime>
+                <DimensionalWeight>1.200</DimensionalWeight>
+                <WeightUnit>KG</WeightUnit>
+                <PickupDayOfWeekNum>2</PickupDayOfWeekNum>
+                <DestinationDayOfWeekNum>4</DestinationDayOfWeekNum>
+                <QuotedWeight>1.500</QuotedWeight>
+                <QuotedWeightUOM>KG</QuotedWeightUOM>
+                <PricingDate>2018-02-26</PricingDate>
+                <TotalTaxAmount>0.000</TotalTaxAmount>
+                <PickupWindowEarliestTime>09:00:00</PickupWindowEarliestTime>
+                <PickupWindowLatestTime>16:00:00</PickupWindowLatestTime>
+                <BookingCutoffOffset>PT1H</BookingCutoffOffset>
+            </QtdShp>
+            <QtdShp>
+                <OriginServiceArea>
+                    <FacilityCode>PNM</FacilityCode>
+                    <ServiceAreaCode>CGK</ServiceAreaCode>
+                </OriginServiceArea>
+                <DestinationServiceArea>
+                    <FacilityCode>FKS</FacilityCode>
+                    <ServiceAreaCode>NRT</ServiceAreaCode>
+                </DestinationServiceArea>
+                <GlobalProductCode>7</GlobalProductCode>
+                <LocalProductCode>7</LocalProductCode>
+                <ProductShortName>EXPRESS EASY</ProductShortName>
+                <LocalProductName>EXPRESS EASY DOC</LocalProductName>
+                <NetworkTypeCode>TD</NetworkTypeCode>
+                <POfferedCustAgreement>Y</POfferedCustAgreement>
+                <TransInd>N</TransInd>
+                <PickupDate>2018-02-27</PickupDate>
+                <PickupCutoffTime>PT15H</PickupCutoffTime>
+                <BookingTime>PT14H</BookingTime>
+                <ExchangeRate>0.000</ExchangeRate>
+                <WeightCharge>0</WeightCharge>
+                <WeightChargeTax>0.000</WeightChargeTax>
+                <TotalTransitDays>3</TotalTransitDays>
+                <PickupPostalLocAddDays>4</PickupPostalLocAddDays>
+                <DeliveryPostalLocAddDays>2</DeliveryPostalLocAddDays>
+                <PickupNonDHLCourierCode> </PickupNonDHLCourierCode>
+                <DeliveryNonDHLCourierCode> </DeliveryNonDHLCourierCode>
+                <DeliveryDate>
+                    <DeliveryType>QDDC</DeliveryType>
+                    <DlvyDateTime>2018-03-08 11:59:00</DlvyDateTime>
+                    <DeliveryDateTimeOffset>+00:00</DeliveryDateTimeOffset>
+                </DeliveryDate>
+                <DeliveryTime>PT23H59M</DeliveryTime>
+                <DimensionalWeight>0.600</DimensionalWeight>
+                <WeightUnit>KG</WeightUnit>
+                <PickupDayOfWeekNum>2</PickupDayOfWeekNum>
+                <DestinationDayOfWeekNum>4</DestinationDayOfWeekNum>
+                <QuotedWeight>1.000</QuotedWeight>
+                <QuotedWeightUOM>KG</QuotedWeightUOM>
+                <PricingDate>2018-02-26</PricingDate>
+                <TotalTaxAmount>0.000</TotalTaxAmount>
+                <PickupWindowEarliestTime>09:00:00</PickupWindowEarliestTime>
+                <PickupWindowLatestTime>16:00:00</PickupWindowLatestTime>
+                <BookingCutoffOffset>PT1H</BookingCutoffOffset>
+            </QtdShp>
+        </BkgDetails>
+        <Srvs>
+            <Srv>
+                <GlobalProductCode>D</GlobalProductCode>
+                <MrkSrv>
+                    <LocalProductCode>D</LocalProductCode>
+                    <ProductShortName>EXPRESS WORLDWIDE</ProductShortName>
+                    <LocalProductName>EXPRESS WORLDWIDE DOC</LocalProductName>
+                    <ProductDesc>EXPRESS WORLDWIDE DOC</ProductDesc>
+                    <NetworkTypeCode>TD</NetworkTypeCode>
+                    <POfferedCustAgreement>N</POfferedCustAgreement>
+                    <TransInd>Y</TransInd>
+                    <LocalProductCtryCd>ID</LocalProductCtryCd>
+                    <GlobalServiceType>D</GlobalServiceType>
+                    <LocalServiceName>EXPRESS WORLDWIDE DOC</LocalServiceName>
+                </MrkSrv>
+            </Srv>
+            <Srv>
+                <GlobalProductCode>7</GlobalProductCode>
+                <MrkSrv>
+                    <LocalProductCode>7</LocalProductCode>
+                    <ProductShortName>EXPRESS EASY</ProductShortName>
+                    <LocalProductName>EXPRESS EASY DOC</LocalProductName>
+                    <ProductDesc>EXPRESS EASY DOC</ProductDesc>
+                    <NetworkTypeCode>TD</NetworkTypeCode>
+                    <POfferedCustAgreement>Y</POfferedCustAgreement>
+                    <TransInd>N</TransInd>
+                    <LocalProductCtryCd>ID</LocalProductCtryCd>
+                    <GlobalServiceType>7</GlobalServiceType>
+                    <LocalServiceName>EXPRESS EASY DOC</LocalServiceName>
+                </MrkSrv>
+            </Srv>
+        </Srvs>
+        <Note>
+            <ActionStatus>Success</ActionStatus>
+        </Note>
+    </GetQuoteResponse></res:DCTResponse><!-- ServiceInvocationId:20180226065151_aaa4_416e1d03-98cb-4286-a809-fd6510897597 -->

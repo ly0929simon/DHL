@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<req:BookPURequest xmlns:req="http://www.dhl.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.dhl.com
+ book-pickup-global-req.xsd" schemaVersion="3.0">
+
+    <Request>
+        <ServiceHeader>
+            <MessageTime>2013-08-03T09:30:47-05:00</MessageTime>
+            <MessageReference>Esteemed Courier Service of DHL</MessageReference>
+            <SiteID>CustomerSiteID</SiteID>
+			<Password>CustomerPassword</Password>
+        </ServiceHeader>
+		<MetaData>
+			<SoftwareName>XMLPI</SoftwareName>
+			<SoftwareVersion>6.2</SoftwareVersion>
+		</MetaData>
+    </Request>
+    <RegionCode>EU</RegionCode>
+    <Requestor>
+        <AccountType>D</AccountType>
+        <AccountNumber>123456789</AccountNumber>
+        <RequestorContact>
+            <PersonName>Test</PersonName>
+            <Phone>0195678910</Phone>
+        </RequestorContact>
+		<CompanyName>IBM Malaysia Sdn Bhd IBM Malaysia Sdn Bhd IBM Malaysia Sdn60</CompanyName>
+        <Address1>19th Floor, Plaza IBM 19th Floor,Plaza IBM 45</Address1>
+		<Address2>3th Floor 3th Floor 3th Floor 3th Floor 3th45</Address2>
+		<Address3>The IBM Place The IBM Place The IBM Place T45</Address3>
+        <City>London</City>
+        <CountryCode>GB</CountryCode>
+    </Requestor>
+    <Place>
+        <LocationType>B</LocationType>
+        <CompanyName>IBM Malaysia Sdn Bhd IBM Malaysia Sdn Bhd IBM Malaysia Sdn60</CompanyName>
+        <Address1>19th Floor, Plaza IBM 19th Floor,Plaza IBM 45</Address1>
+		<Address2>3th Floor 3th Floor 3th Floor 3th Floor 3th45</Address2>
+		<Address3>The IBM Place The IBM Place The IBM Place T45</Address3>
+        <PackageLocation>String</PackageLocation>
+        <City>London</City>
+        <StateCode>GB</StateCode>
+        <DivisionName>sd</DivisionName>
+        <CountryCode>GB</CountryCode>
+        <PostalCode>WC1E 7HU</PostalCode>
+    </Place>
+    <Pickup>
+        <PickupDate>2018-02-06</PickupDate>
+		<PickupTypeCode>S</PickupTypeCode>
+        <ReadyByTime>09:20</ReadyByTime>
+        <CloseTime>10:20</CloseTime>
+        <AfterHoursClosingTime>11:20</AfterHoursClosingTime>
+        <AfterHoursLocation>String</AfterHoursLocation>
+		<Pieces>2
+ 	    <weight>
+            <Weight>20</Weight>
+            <WeightUnit>L</WeightUnit>
+        </weight>
+    </Pickup>
+    <PickupContact>
+        <PersonName>Kosani Test</PersonName>
+        <Phone>0195678910</Phone>
+    </PickupContact>
+    <ShipmentDetails>
+        <AccountType>D</AccountType>
+        <AccountNumber>123456789</AccountNumber>
+        <BillToAccountNumber>123456789</BillToAccountNumber>
+        <!--AWBNumber>3400127614</AWBNumber!-->
+		<AWBNumber>6410757791</AWBNumber>
+        <NumberOfPieces>1</NumberOfPieces>
+        <Weight>10</Weight>
+        <WeightUnit>L</WeightUnit>
+        <GlobalProductCode>D</GlobalProductCode>
+        <DoorTo>DD</DoorTo>
+        <DimensionUnit>I</DimensionUnit>
+        <InsuredAmount>10.00</InsuredAmount>
+        <InsuredCurrencyCode>CAD</InsuredCurrencyCode>
+        <Pieces>
+		  <Piece>
+            <Weight>10</Weight>
+            <Width>1</Width>
+            <Height>2</Height>
+            <Depth>3</Depth>
+		  </Piece>
+        </Pieces>
+		<SpecialService>S</SpecialService>
+    </ShipmentDetails>
+ </req:BookPURequest>

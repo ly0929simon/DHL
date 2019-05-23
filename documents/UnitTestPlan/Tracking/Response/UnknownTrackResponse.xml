@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<req:TrackingResponse xmlns:req="http://www.dhl.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.dhl.com TrackingResponse.xsd">
+    <Response>
+        <ServiceHeader>
+            <MessageTime>2018-02-27T13:04:58+01:00</MessageTime>
+            <MessageReference>1234567890123456789012345678</MessageReference>
+            <SiteID>CustomerSiteID</SiteID>
+        </ServiceHeader>
+    </Response>
+    <AWBInfo>
+        <AWBNumber>4781584780</AWBNumber>
+        <Status>
+            <ActionStatus>success</ActionStatus>
+        </Status>
+        <ShipmentInfo>
+            <OriginServiceArea>
+                <ServiceAreaCode>PEK</ServiceAreaCode>
+            </OriginServiceArea>
+            <DestinationServiceArea>
+                <ServiceAreaCode>PHL</ServiceAreaCode>
+            </DestinationServiceArea>
+            <ShipperName>THE EXP HIGH SCH ATT TO BNU</ShipperName>
+            <ShipperAccountNumber>123456789</ShipperAccountNumber>
+            <ConsigneeName>HAVEFORD COLLEGE</ConsigneeName>
+            <ShipmentDate>2017-12-25T14:38:00</ShipmentDate>
+            <DlvyNotificationFlag>Y</DlvyNotificationFlag>
+            <ShipperReference>
+                <ReferenceID>2469</ReferenceID>
+            </ShipperReference>
+        </ShipmentInfo>
+    </AWBInfo>
+    <LanguageCode>String</LanguageCode>
+</req:TrackingResponse>
+<!-- ServiceInvocationId:20180227130457_186a_f9509583-c20c-4575-8aaf-2f4b9be07e16 -->

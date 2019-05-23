@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><res:ErrorResponse xmlns:res='http://www.dhl.com' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation= 'http://www.dhl.com err-res.xsd'>
+    <Response>
+        <ServiceHeader>
+            <MessageTime>2018-02-26T07:42:45+01:00</MessageTime>
+            <MessageReference>1234567890123456789012345678901</MessageReference>
+			<SiteID>CustomerSiteID</SiteID>
+			<Password>CustomerPassword</Password>
+        </ServiceHeader>
+        <Status>
+            <ActionStatus>Error</ActionStatus>
+            <Condition>
+                <ConditionCode>DCT_0003</ConditionCode>
+                <ConditionData>Invalid account number. Please make sure
+                    data entered is valid before proceeding or contact
+                    our customer service.</ConditionData>
+            </Condition>
+        </Status>
+    </Response></res:ErrorResponse><!-- ServiceInvocationId:20180226074244_aaa4_7fd1d217-f2e1-453f-9a80-03cbe13fd585 -->

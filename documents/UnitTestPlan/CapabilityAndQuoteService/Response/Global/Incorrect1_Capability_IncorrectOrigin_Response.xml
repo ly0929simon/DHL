@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><res:DCTResponse xmlns:res='http://www.dhl.com' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation= 'http://www.dhl.com DCT-Response.xsd'>
+    <GetCapabilityResponse>
+        <Response>
+            <ServiceHeader>
+                <MessageTime>2018-02-26T07:51:52.946+01:00</MessageTime>
+                <MessageReference>1234567890123456789012345678901</MessageReference>
+                <SiteID>CustomerSiteID</SiteID>
+            </ServiceHeader>
+        </Response>
+        <Note>
+            <ActionStatus>Failure</ActionStatus>
+            <Condition>
+                <ConditionCode>420504</ConditionCode>
+                <ConditionData>The origin location is invalid. Please check the data.</ConditionData>
+            </Condition>
+            <Condition>
+                <ConditionCode>420000</ConditionCode>
+                <ConditionData>Data error</ConditionData>
+            </Condition>
+            <Condition>
+                <ConditionCode>220001</ConditionCode>
+                <ConditionData>Failure - request</ConditionData>
+            </Condition>
+        </Note>
+    </GetCapabilityResponse></res:DCTResponse><!-- ServiceInvocationId:20180226075152_aaa4_50840d58-5445-4188-9649-ef2bdb189a9b -->

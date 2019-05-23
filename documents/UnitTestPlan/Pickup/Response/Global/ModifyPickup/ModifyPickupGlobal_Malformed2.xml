@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><res:ErrorResponse xmlns:res='http://www.dhl.com' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation= 'http://www.dhl.com err-res.xsd'>
+    <Response>
+        <ServiceHeader>
+            <MessageTime>2018-02-05T12:13:15+01:00</MessageTime>
+            <MessageReference>1234567890123456789012345678901</MessageReference>
+            <SiteID>CustomerSiteID</SiteID>
+            <Password>CustomerPassword</Password>
+        </ServiceHeader>
+        <Status>
+            <ActionStatus>Error</ActionStatus>
+            <Condition>
+                <ConditionCode>111</ConditionCode>
+                <ConditionData>Error in parsing request XML:Error: The
+                    content of element type &quot;Pickup&quot; must
+                    match
+                    &quot;(PickupDate,PickupTypeCode,ReadyByTime,CloseTime,AfterHoursClosingTime?,AfterHoursLocation?,Pieces?,RemotePickupFlag?,weight?,(SpecialInstructions?,SpecialInstructions?,SpecialInstructions?,SpecialInstructions?),Remarks?)&quot;.
+                    at line 45, column 12</ConditionData>
+            </Condition>
+        </Status>
+    </Response></res:ErrorResponse><!-- ServiceInvocationId:20180205121315_aaa4_f12020ef-890d-4dbb-bbf6-29c51679a36b -->

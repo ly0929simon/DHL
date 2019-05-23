@@ -1,0 +1,2898 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><res:DCTResponse xmlns:res='http://www.dhl.com' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation= 'http://www.dhl.com DCT-Response.xsd'>
+    <GetCapabilityResponse>
+        <Response>
+            <ServiceHeader>
+                <MessageTime>2018-02-26T04:42:24.081+01:00</MessageTime>
+                <MessageReference>1234567890123456789012345678901</MessageReference>
+                <SiteID>CustomerSiteID</SiteID>
+            </ServiceHeader>
+        </Response>
+        <BkgDetails>
+            <QtdShp>
+                <OriginServiceArea>
+                    <FacilityCode>NKT</FacilityCode>
+                    <ServiceAreaCode>MOW</ServiceAreaCode>
+                </OriginServiceArea>
+                <DestinationServiceArea>
+                    <FacilityCode>SVX</FacilityCode>
+                    <ServiceAreaCode>SVX</ServiceAreaCode>
+                </DestinationServiceArea>
+                <GlobalProductCode>C</GlobalProductCode>
+                <LocalProductCode>C</LocalProductCode>
+                <ProductShortName>MEDICAL EXPRESS</ProductShortName>
+                <LocalProductName>MEDICAL EXPRESS</LocalProductName>
+                <NetworkTypeCode>TD</NetworkTypeCode>
+                <POfferedCustAgreement>Y</POfferedCustAgreement>
+                <TransInd>N</TransInd>
+                <PickupDate>2018-02-27</PickupDate>
+                <PickupCutoffTime>PT18H</PickupCutoffTime>
+                <BookingTime>PT16H</BookingTime>
+                <TotalTransitDays>1</TotalTransitDays>
+                <PickupPostalLocAddDays>0</PickupPostalLocAddDays>
+                <DeliveryPostalLocAddDays>0</DeliveryPostalLocAddDays>
+                <PickupNonDHLCourierCode> </PickupNonDHLCourierCode>
+                <DeliveryNonDHLCourierCode> </DeliveryNonDHLCourierCode>
+                <DeliveryDate>
+                    <DeliveryType>QDDC</DeliveryType>
+                    <DlvyDateTime>2018-02-28 12:00:00</DlvyDateTime>
+                    <DeliveryDateTimeOffset>+00:00</DeliveryDateTimeOffset>
+                </DeliveryDate>
+                <DeliveryTime>PT12H</DeliveryTime>
+                <DimensionalWeight>1.200</DimensionalWeight>
+                <WeightUnit>KG</WeightUnit>
+                <PickupDayOfWeekNum>2</PickupDayOfWeekNum>
+                <DestinationDayOfWeekNum>3</DestinationDayOfWeekNum>
+                <PickupWindowEarliestTime>09:00:00</PickupWindowEarliestTime>
+                <PickupWindowLatestTime>18:00:00</PickupWindowLatestTime>
+                <BookingCutoffOffset>PT2H</BookingCutoffOffset>
+            </QtdShp>
+            <QtdShp>
+                <OriginServiceArea>
+                    <FacilityCode>NKT</FacilityCode>
+                    <ServiceAreaCode>MOW</ServiceAreaCode>
+                </OriginServiceArea>
+                <DestinationServiceArea>
+                    <FacilityCode>SVX</FacilityCode>
+                    <ServiceAreaCode>SVX</ServiceAreaCode>
+                </DestinationServiceArea>
+                <GlobalProductCode>1</GlobalProductCode>
+                <LocalProductCode>1</LocalProductCode>
+                <ProductShortName>EXPRESS DOMESTIC 12:00</ProductShortName>
+                <LocalProductName>EXPRESS DOMESTIC 12:00</LocalProductName>
+                <NetworkTypeCode>TD</NetworkTypeCode>
+                <POfferedCustAgreement>N</POfferedCustAgreement>
+                <TransInd>Y</TransInd>
+                <PickupDate>2018-02-27</PickupDate>
+                <PickupCutoffTime>PT18H</PickupCutoffTime>
+                <BookingTime>PT16H</BookingTime>
+                <TotalTransitDays>1</TotalTransitDays>
+                <PickupPostalLocAddDays>0</PickupPostalLocAddDays>
+                <DeliveryPostalLocAddDays>0</DeliveryPostalLocAddDays>
+                <PickupNonDHLCourierCode> </PickupNonDHLCourierCode>
+                <DeliveryNonDHLCourierCode> </DeliveryNonDHLCourierCode>
+                <DeliveryDate>
+                    <DeliveryType>QDDC</DeliveryType>
+                    <DlvyDateTime>2018-02-28 12:00:00</DlvyDateTime>
+                    <DeliveryDateTimeOffset>+00:00</DeliveryDateTimeOffset>
+                </DeliveryDate>
+                <DeliveryTime>PT12H</DeliveryTime>
+                <DimensionalWeight>1.200</DimensionalWeight>
+                <WeightUnit>KG</WeightUnit>
+                <PickupDayOfWeekNum>2</PickupDayOfWeekNum>
+                <DestinationDayOfWeekNum>3</DestinationDayOfWeekNum>
+                <PickupWindowEarliestTime>09:00:00</PickupWindowEarliestTime>
+                <PickupWindowLatestTime>18:00:00</PickupWindowLatestTime>
+                <BookingCutoffOffset>PT2H</BookingCutoffOffset>
+            </QtdShp>
+            <QtdShp>
+                <OriginServiceArea>
+                    <FacilityCode>NKT</FacilityCode>
+                    <ServiceAreaCode>MOW</ServiceAreaCode>
+                </OriginServiceArea>
+                <DestinationServiceArea>
+                    <FacilityCode>SVX</FacilityCode>
+                    <ServiceAreaCode>SVX</ServiceAreaCode>
+                </DestinationServiceArea>
+                <GlobalProductCode>N</GlobalProductCode>
+                <LocalProductCode>J</LocalProductCode>
+                <ProductShortName>DOMESTIC THIRD PARTY</ProductShortName>
+                <LocalProductName>DOMESTIC THIRD PARTY</LocalProductName>
+                <NetworkTypeCode>TD</NetworkTypeCode>
+                <POfferedCustAgreement>Y</POfferedCustAgreement>
+                <TransInd>N</TransInd>
+                <PickupDate>2018-02-27</PickupDate>
+                <PickupCutoffTime>PT18H</PickupCutoffTime>
+                <BookingTime>PT16H</BookingTime>
+                <TotalTransitDays>1</TotalTransitDays>
+                <PickupPostalLocAddDays>0</PickupPostalLocAddDays>
+                <DeliveryPostalLocAddDays>0</DeliveryPostalLocAddDays>
+                <PickupNonDHLCourierCode> </PickupNonDHLCourierCode>
+                <DeliveryNonDHLCourierCode> </DeliveryNonDHLCourierCode>
+                <DeliveryDate>
+                    <DeliveryType>QDDC</DeliveryType>
+                    <DlvyDateTime>2018-02-28 11:59:00</DlvyDateTime>
+                    <DeliveryDateTimeOffset>+00:00</DeliveryDateTimeOffset>
+                </DeliveryDate>
+                <DeliveryTime>PT23H59M</DeliveryTime>
+                <DimensionalWeight>1.200</DimensionalWeight>
+                <WeightUnit>KG</WeightUnit>
+                <PickupDayOfWeekNum>2</PickupDayOfWeekNum>
+                <DestinationDayOfWeekNum>3</DestinationDayOfWeekNum>
+                <PickupWindowEarliestTime>09:00:00</PickupWindowEarliestTime>
+                <PickupWindowLatestTime>18:00:00</PickupWindowLatestTime>
+                <BookingCutoffOffset>PT2H</BookingCutoffOffset>
+            </QtdShp>
+            <QtdShp>
+                <OriginServiceArea>
+                    <FacilityCode>NKT</FacilityCode>
+                    <ServiceAreaCode>MOW</ServiceAreaCode>
+                </OriginServiceArea>
+                <DestinationServiceArea>
+                    <FacilityCode>SVX</FacilityCode>
+                    <ServiceAreaCode>SVX</ServiceAreaCode>
+                </DestinationServiceArea>
+                <GlobalProductCode>7</GlobalProductCode>
+                <LocalProductCode>7</LocalProductCode>
+                <ProductShortName>EXPRESS EASY</ProductShortName>
+                <LocalProductName>EXPRESS EASY DOC</LocalProductName>
+                <NetworkTypeCode>TD</NetworkTypeCode>
+                <POfferedCustAgreement>Y</POfferedCustAgreement>
+                <TransInd>N</TransInd>
+                <PickupDate>2018-02-27</PickupDate>
+                <PickupCutoffTime>PT18H</PickupCutoffTime>
+                <BookingTime>PT16H</BookingTime>
+                <TotalTransitDays>1</TotalTransitDays>
+                <PickupPostalLocAddDays>0</PickupPostalLocAddDays>
+                <DeliveryPostalLocAddDays>0</DeliveryPostalLocAddDays>
+                <PickupNonDHLCourierCode> </PickupNonDHLCourierCode>
+                <DeliveryNonDHLCourierCode> </DeliveryNonDHLCourierCode>
+                <DeliveryDate>
+                    <DeliveryType>QDDC</DeliveryType>
+                    <DlvyDateTime>2018-02-28 11:59:00</DlvyDateTime>
+                    <DeliveryDateTimeOffset>+00:00</DeliveryDateTimeOffset>
+                </DeliveryDate>
+                <DeliveryTime>PT23H59M</DeliveryTime>
+                <DimensionalWeight>0.600</DimensionalWeight>
+                <WeightUnit>KG</WeightUnit>
+                <PickupDayOfWeekNum>2</PickupDayOfWeekNum>
+                <DestinationDayOfWeekNum>3</DestinationDayOfWeekNum>
+                <PickupWindowEarliestTime>09:00:00</PickupWindowEarliestTime>
+                <PickupWindowLatestTime>18:00:00</PickupWindowLatestTime>
+                <BookingCutoffOffset>PT2H</BookingCutoffOffset>
+            </QtdShp>
+            <QtdShp>
+                <OriginServiceArea>
+                    <FacilityCode>NKT</FacilityCode>
+                    <ServiceAreaCode>MOW</ServiceAreaCode>
+                </OriginServiceArea>
+                <DestinationServiceArea>
+                    <FacilityCode>SVX</FacilityCode>
+                    <ServiceAreaCode>SVX</ServiceAreaCode>
+                </DestinationServiceArea>
+                <GlobalProductCode>2</GlobalProductCode>
+                <LocalProductCode>2</LocalProductCode>
+                <ProductShortName>DOM EXPRESS</ProductShortName>
+                <LocalProductName>DOM EXPRESS</LocalProductName>
+                <NetworkTypeCode>TD</NetworkTypeCode>
+                <POfferedCustAgreement>Y</POfferedCustAgreement>
+                <TransInd>N</TransInd>
+                <PickupDate>2018-02-27</PickupDate>
+                <PickupCutoffTime>PT18H</PickupCutoffTime>
+                <BookingTime>PT16H</BookingTime>
+                <TotalTransitDays>1</TotalTransitDays>
+                <PickupPostalLocAddDays>0</PickupPostalLocAddDays>
+                <DeliveryPostalLocAddDays>0</DeliveryPostalLocAddDays>
+                <PickupNonDHLCourierCode> </PickupNonDHLCourierCode>
+                <DeliveryNonDHLCourierCode> </DeliveryNonDHLCourierCode>
+                <DeliveryDate>
+                    <DeliveryType>QDDC</DeliveryType>
+                    <DlvyDateTime>2018-02-28 11:59:00</DlvyDateTime>
+                    <DeliveryDateTimeOffset>+00:00</DeliveryDateTimeOffset>
+                </DeliveryDate>
+                <DeliveryTime>PT23H59M</DeliveryTime>
+                <DimensionalWeight>1.200</DimensionalWeight>
+                <WeightUnit>KG</WeightUnit>
+                <PickupDayOfWeekNum>2</PickupDayOfWeekNum>
+                <DestinationDayOfWeekNum>3</DestinationDayOfWeekNum>
+                <PickupWindowEarliestTime>09:00:00</PickupWindowEarliestTime>
+                <PickupWindowLatestTime>18:00:00</PickupWindowLatestTime>
+                <BookingCutoffOffset>PT2H</BookingCutoffOffset>
+            </QtdShp>
+            <QtdShp>
+                <OriginServiceArea>
+                    <FacilityCode>NKT</FacilityCode>
+                    <ServiceAreaCode>MOW</ServiceAreaCode>
+                </OriginServiceArea>
+                <DestinationServiceArea>
+                    <FacilityCode>SVX</FacilityCode>
+                    <ServiceAreaCode>SVX</ServiceAreaCode>
+                </DestinationServiceArea>
+                <GlobalProductCode>N</GlobalProductCode>
+                <LocalProductCode>N</LocalProductCode>
+                <ProductShortName>EXPRESS DOMESTIC</ProductShortName>
+                <LocalProductName>EXPRESS DOMESTIC</LocalProductName>
+                <NetworkTypeCode>TD</NetworkTypeCode>
+                <POfferedCustAgreement>N</POfferedCustAgreement>
+                <TransInd>Y</TransInd>
+                <PickupDate>2018-02-27</PickupDate>
+                <PickupCutoffTime>PT18H</PickupCutoffTime>
+                <BookingTime>PT16H</BookingTime>
+                <TotalTransitDays>1</TotalTransitDays>
+                <PickupPostalLocAddDays>0</PickupPostalLocAddDays>
+                <DeliveryPostalLocAddDays>0</DeliveryPostalLocAddDays>
+                <PickupNonDHLCourierCode> </PickupNonDHLCourierCode>
+                <DeliveryNonDHLCourierCode> </DeliveryNonDHLCourierCode>
+                <DeliveryDate>
+                    <DeliveryType>QDDC</DeliveryType>
+                    <DlvyDateTime>2018-02-28 11:59:00</DlvyDateTime>
+                    <DeliveryDateTimeOffset>+00:00</DeliveryDateTimeOffset>
+                </DeliveryDate>
+                <DeliveryTime>PT23H59M</DeliveryTime>
+                <DimensionalWeight>1.200</DimensionalWeight>
+                <WeightUnit>KG</WeightUnit>
+                <PickupDayOfWeekNum>2</PickupDayOfWeekNum>
+                <DestinationDayOfWeekNum>3</DestinationDayOfWeekNum>
+                <PickupWindowEarliestTime>09:00:00</PickupWindowEarliestTime>
+                <PickupWindowLatestTime>18:00:00</PickupWindowLatestTime>
+                <BookingCutoffOffset>PT2H</BookingCutoffOffset>
+            </QtdShp>
+            <QtdShp>
+                <OriginServiceArea>
+                    <FacilityCode>NKT</FacilityCode>
+                    <ServiceAreaCode>MOW</ServiceAreaCode>
+                </OriginServiceArea>
+                <DestinationServiceArea>
+                    <FacilityCode>SVX</FacilityCode>
+                    <ServiceAreaCode>SVX</ServiceAreaCode>
+                </DestinationServiceArea>
+                <GlobalProductCode>G</GlobalProductCode>
+                <LocalProductCode>G</LocalProductCode>
+                <ProductShortName>ECONOMY SELECT DOMESTIC</ProductShortName>
+                <LocalProductName>DOMESTIC ECONOMY SELECT</LocalProductName>
+                <NetworkTypeCode>DD</NetworkTypeCode>
+                <POfferedCustAgreement>Y</POfferedCustAgreement>
+                <TransInd>N</TransInd>
+                <PickupDate>2018-02-27</PickupDate>
+                <PickupCutoffTime>PT13H</PickupCutoffTime>
+                <BookingTime>PT11H</BookingTime>
+                <TotalTransitDays>12</TotalTransitDays>
+                <PickupPostalLocAddDays>0</PickupPostalLocAddDays>
+                <DeliveryPostalLocAddDays>0</DeliveryPostalLocAddDays>
+                <PickupNonDHLCourierCode> </PickupNonDHLCourierCode>
+                <DeliveryNonDHLCourierCode> </DeliveryNonDHLCourierCode>
+                <DeliveryDate>
+                    <DeliveryType>QDDC</DeliveryType>
+                    <DlvyDateTime>2018-03-12 11:59:00</DlvyDateTime>
+                    <DeliveryDateTimeOffset>+00:00</DeliveryDateTimeOffset>
+                </DeliveryDate>
+                <DeliveryTime>PT23H59M</DeliveryTime>
+                <DimensionalWeight>1.500</DimensionalWeight>
+                <WeightUnit>KG</WeightUnit>
+                <PickupDayOfWeekNum>2</PickupDayOfWeekNum>
+                <DestinationDayOfWeekNum>1</DestinationDayOfWeekNum>
+                <PickupWindowEarliestTime>09:00:00</PickupWindowEarliestTime>
+                <PickupWindowLatestTime>18:00:00</PickupWindowLatestTime>
+                <BookingCutoffOffset>PT2H</BookingCutoffOffset>
+            </QtdShp>
+        </BkgDetails>
+        <Srvs>
+            <Srv>
+                <GlobalProductCode>C</GlobalProductCode>
+                <MrkSrv>
+                    <LocalProductCode>C</LocalProductCode>
+                    <ProductShortName>MEDICAL EXPRESS</ProductShortName>
+                    <LocalProductName>MEDICAL EXPRESS</LocalProductName>
+                    <ProductDesc>MEDICAL EXPRESS</ProductDesc>
+                    <NetworkTypeCode>TD</NetworkTypeCode>
+                    <POfferedCustAgreement>Y</POfferedCustAgreement>
+                    <TransInd>N</TransInd>
+                    <LocalProductCtryCd>RU</LocalProductCtryCd>
+                    <GlobalServiceType>C</GlobalServiceType>
+                    <LocalServiceName>MEDICAL EXPRESS</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>AG</LocalServiceType>
+                    <GlobalServiceName>DOMESTIC SATURDAY DELIVERY</GlobalServiceName>
+                    <LocalServiceTypeName>SATURDAY DELIVERY</LocalServiceTypeName>
+                    <SOfferedCustAgreement>N</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>AG</GlobalServiceType>
+                    <LocalServiceName>SATURDAY DELIVERY</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>FF</LocalServiceType>
+                    <GlobalServiceName>FUEL SURCHARGE</GlobalServiceName>
+                    <LocalServiceTypeName>FUEL SURCHARGE</LocalServiceTypeName>
+                    <SOfferedCustAgreement>N</SOfferedCustAgreement>
+                    <ChargeCodeType>SCH</ChargeCodeType>
+                    <GlobalServiceType>FF</GlobalServiceType>
+                    <LocalServiceName>FUEL SURCHARGE</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>HD</LocalServiceType>
+                    <GlobalServiceName>LITHIUM ION PI966 SECTION II</GlobalServiceName>
+                    <LocalServiceTypeName>LITHIUM ION PI966 SECTION II</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>HD</GlobalServiceType>
+                    <LocalServiceName>LITHIUM ION PI966 SECTION II</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>HL</LocalServiceType>
+                    <GlobalServiceName>LIMITED QUANTITIES ADR</GlobalServiceName>
+                    <LocalServiceTypeName>LIMITED QUANTITIES ADR</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>HL</GlobalServiceType>
+                    <LocalServiceName>LIMITED QUANTITIES ADR</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>HM</LocalServiceType>
+                    <GlobalServiceName>LITHIUM METAL PI969 SECTION II</GlobalServiceName>
+                    <LocalServiceTypeName>LITHIUM METAL</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>HM</GlobalServiceType>
+                    <LocalServiceName>LITHIUM METAL</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>HV</LocalServiceType>
+                    <GlobalServiceName>LITHIUM ION PI967-SECTION II</GlobalServiceName>
+                    <LocalServiceTypeName>LITHIUM ION PI967-SECTION II</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>HV</GlobalServiceType>
+                    <LocalServiceName>LITHIUM ION PI967-SECTION II</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>HW</LocalServiceType>
+                    <GlobalServiceName>LITHIUM METAL PI970-SECTION II</GlobalServiceName>
+                    <LocalServiceTypeName>LITHIUM METAL PI970-SECTION II</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>HW</GlobalServiceType>
+                    <LocalServiceName>LITHIUM METAL PI970-SECTION II</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>HY</LocalServiceType>
+                    <GlobalServiceName>BIOLOGICAL UN3373</GlobalServiceName>
+                    <LocalServiceTypeName>BIOLOGICAL UN3373</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>HY</GlobalServiceType>
+                    <LocalServiceName>BIOLOGICAL UN3373</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>II</LocalServiceType>
+                    <GlobalServiceName>SHIPMENT INSURANCE</GlobalServiceName>
+                    <LocalServiceTypeName>SHIPMENT INSURANCE</LocalServiceTypeName>
+                    <SOfferedCustAgreement>N</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>II</GlobalServiceType>
+                    <LocalServiceName>SHIPMENT INSURANCE</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>OO</LocalServiceType>
+                    <GlobalServiceName>REMOTE AREA DELIVERY</GlobalServiceName>
+                    <LocalServiceTypeName>REMOTE AREA DELIVERY</LocalServiceTypeName>
+                    <SOfferedCustAgreement>N</SOfferedCustAgreement>
+                    <ChargeCodeType>SCH</ChargeCodeType>
+                    <GlobalServiceType>OO</GlobalServiceType>
+                    <LocalServiceName>REMOTE AREA DELIVERY</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>PA</LocalServiceType>
+                    <GlobalServiceName>SHIPMENT PREPARATION</GlobalServiceName>
+                    <LocalServiceTypeName>SHIPMENT PREPARATION</LocalServiceTypeName>
+                    <SOfferedCustAgreement>N</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>PA</GlobalServiceType>
+                    <LocalServiceName>SHIPMENT PREPARATION</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>PD</LocalServiceType>
+                    <GlobalServiceName>DATA ENTRY</GlobalServiceName>
+                    <LocalServiceTypeName>DATA ENTRY</LocalServiceTypeName>
+                    <SOfferedCustAgreement>N</SOfferedCustAgreement>
+                    <ChargeCodeType>SCH</ChargeCodeType>
+                    <GlobalServiceType>PD</GlobalServiceType>
+                    <LocalServiceName>DATA ENTRY</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>PT</LocalServiceType>
+                    <GlobalServiceName>DATA STAGING 03</GlobalServiceName>
+                    <LocalServiceTypeName>DATA STAGING 03</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>TEC</ChargeCodeType>
+                    <GlobalServiceType>PT</GlobalServiceType>
+                    <LocalServiceName>DATA STAGING 03</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>PU</LocalServiceType>
+                    <GlobalServiceName>DATA STAGING 06</GlobalServiceName>
+                    <LocalServiceTypeName>DATA STAGING 06</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>TEC</ChargeCodeType>
+                    <GlobalServiceType>PU</GlobalServiceType>
+                    <LocalServiceName>DATA STAGING 06</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>PV</LocalServiceType>
+                    <GlobalServiceName>DATA STAGING 12</GlobalServiceName>
+                    <LocalServiceTypeName>DATA STAGING 12</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>TEC</ChargeCodeType>
+                    <GlobalServiceType>PV</GlobalServiceType>
+                    <LocalServiceName>DATA STAGING 12</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>PW</LocalServiceType>
+                    <GlobalServiceName>DATA STAGING 24</GlobalServiceName>
+                    <LocalServiceTypeName>DATA STAGING 24</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>TEC</ChargeCodeType>
+                    <GlobalServiceType>PW</GlobalServiceType>
+                    <LocalServiceName>DATA STAGING 24</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>SC</LocalServiceType>
+                    <GlobalServiceName>NAMED SIGNATURE</GlobalServiceName>
+                    <LocalServiceTypeName>NAMED SIGNATURE</LocalServiceTypeName>
+                    <SOfferedCustAgreement>N</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>SC</GlobalServiceType>
+                    <LocalServiceName>NAMED SIGNATURE</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>UB</LocalServiceType>
+                    <GlobalServiceName>AMBIENT VIALSAFE</GlobalServiceName>
+                    <LocalServiceTypeName>AMBIENT VIALSAFE</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>UB</GlobalServiceType>
+                    <LocalServiceName>AMBIENT VIALSAFE</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>UC</LocalServiceType>
+                    <GlobalServiceName>AMBIENT NON INSULATED</GlobalServiceName>
+                    <LocalServiceTypeName>AMBIENT NON INSULATED</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>UC</GlobalServiceType>
+                    <LocalServiceName>AMBIENT NON INSULATED</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>UD</LocalServiceType>
+                    <GlobalServiceName>AMBIENT INSULATED</GlobalServiceName>
+                    <LocalServiceTypeName>AMBIENT INSULATED</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>UD</GlobalServiceType>
+                    <LocalServiceName>AMBIENT INSULATED</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>UE</LocalServiceType>
+                    <GlobalServiceName>AMBIENT EXTREME</GlobalServiceName>
+                    <LocalServiceTypeName>AMBIENT EXTREME</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>UE</GlobalServiceType>
+                    <LocalServiceName>AMBIENT EXTREME</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>UF</LocalServiceType>
+                    <GlobalServiceName>CHILLED BOX S</GlobalServiceName>
+                    <LocalServiceTypeName>CHILLED BOX S</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>UF</GlobalServiceType>
+                    <LocalServiceName>CHILLED BOX S</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>UG</LocalServiceType>
+                    <GlobalServiceName>CHILLED BOX M</GlobalServiceName>
+                    <LocalServiceTypeName>CHILLED BOX M</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>UG</GlobalServiceType>
+                    <LocalServiceName>CHILLED BOX M</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>UH</LocalServiceType>
+                    <GlobalServiceName>CHILLED BOX L</GlobalServiceName>
+                    <LocalServiceTypeName>CHILLED BOX L</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>UH</GlobalServiceType>
+                    <LocalServiceName>CHILLED BOX L</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>UI</LocalServiceType>
+                    <GlobalServiceName>FROZEN NO ICE S</GlobalServiceName>
+                    <LocalServiceTypeName>FROZEN NO ICE S</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>UI</GlobalServiceType>
+                    <LocalServiceName>FROZEN NO ICE S</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>UJ</LocalServiceType>
+                    <GlobalServiceName>FROZEN NO ICE M</GlobalServiceName>
+                    <LocalServiceTypeName>FROZEN NO ICE M</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>UJ</GlobalServiceType>
+                    <LocalServiceName>FROZEN NO ICE M</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>UK</LocalServiceType>
+                    <GlobalServiceName>FROZEN NO ICE L</GlobalServiceName>
+                    <LocalServiceTypeName>FROZEN NO ICE L</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>UK</GlobalServiceType>
+                    <LocalServiceName>FROZEN NO ICE L</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>UL</LocalServiceType>
+                    <GlobalServiceName>FROZEN ICE STICKS S</GlobalServiceName>
+                    <LocalServiceTypeName>FROZEN ICE STICKS S</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>UL</GlobalServiceType>
+                    <LocalServiceName>FROZEN ICE STICKS S</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>UM</LocalServiceType>
+                    <GlobalServiceName>FROZEN ICE STICKS M</GlobalServiceName>
+                    <LocalServiceTypeName>FROZEN ICE STICKS M</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>UM</GlobalServiceType>
+                    <LocalServiceName>FROZEN ICE STICKS M</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>UN</LocalServiceType>
+                    <GlobalServiceName>FROZEN ICE STICKS L</GlobalServiceName>
+                    <LocalServiceTypeName>FROZEN ICE STICKS L</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>UN</GlobalServiceType>
+                    <LocalServiceName>FROZEN ICE STICKS L</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>UO</LocalServiceType>
+                    <GlobalServiceName>FROZEN ICE PLATES S</GlobalServiceName>
+                    <LocalServiceTypeName>FROZEN ICE PLATES S</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>UO</GlobalServiceType>
+                    <LocalServiceName>FROZEN ICE PLATES S</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>UP</LocalServiceType>
+                    <GlobalServiceName>FROZEN ICE PLATES M</GlobalServiceName>
+                    <LocalServiceTypeName>FROZEN ICE PLATES M</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>UP</GlobalServiceType>
+                    <LocalServiceName>FROZEN ICE PLATES M</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>UQ</LocalServiceType>
+                    <GlobalServiceName>FROZEN ICE PLATES L</GlobalServiceName>
+                    <LocalServiceTypeName>FROZEN ICE PLATES L</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>UQ</GlobalServiceType>
+                    <LocalServiceName>FROZEN ICE PLATES L</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>UR</LocalServiceType>
+                    <GlobalServiceName>COMBINATION NO ICE</GlobalServiceName>
+                    <LocalServiceTypeName>COMBINATION NO ICE</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>UR</GlobalServiceType>
+                    <LocalServiceName>COMBINATION NO ICE</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>US</LocalServiceType>
+                    <GlobalServiceName>COMBINATION DRY ICE</GlobalServiceName>
+                    <LocalServiceTypeName>COMBINATION DRY ICE</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>US</GlobalServiceType>
+                    <LocalServiceName>COMBINATION DRY ICE</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>VB</LocalServiceType>
+                    <GlobalServiceName>ABSORBENT SLEEVE</GlobalServiceName>
+                    <LocalServiceTypeName>ABSORBENT SLEEVE</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>VB</GlobalServiceType>
+                    <LocalServiceName>ABSORBENT SLEEVE</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>VC</LocalServiceType>
+                    <GlobalServiceName>COOLAND WRAP</GlobalServiceName>
+                    <LocalServiceTypeName>COOLANT WRAP</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>VC</GlobalServiceType>
+                    <LocalServiceName>COOLANT WRAP</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>VE</LocalServiceType>
+                    <GlobalServiceName>PRESSURE BAG S</GlobalServiceName>
+                    <LocalServiceTypeName>PRESSURE BAG S</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>VE</GlobalServiceType>
+                    <LocalServiceName>PRESSURE BAG S</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>VF</LocalServiceType>
+                    <GlobalServiceName>PRESSURE BAG M</GlobalServiceName>
+                    <LocalServiceTypeName>PRESSURE BAG M</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>VF</GlobalServiceType>
+                    <LocalServiceName>PRESSURE BAG M</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>VG</LocalServiceType>
+                    <GlobalServiceName>PRESSURE BAG L</GlobalServiceName>
+                    <LocalServiceTypeName>PRESSURE BAG L</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>VG</GlobalServiceType>
+                    <LocalServiceName>PRESSURE BAG L</LocalServiceName>
+                </MrkSrv>
+                <SBTP>
+                    <Prod>
+                        <VldSrvComb>
+                            <SpecialServiceType>AG</SpecialServiceType>
+                            <LocalServiceType>AG</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>FF</SpecialServiceType>
+                            <LocalServiceType>FF</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>HD</SpecialServiceType>
+                            <LocalServiceType>HD</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>HL</SpecialServiceType>
+                            <LocalServiceType>HL</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>HM</SpecialServiceType>
+                            <LocalServiceType>HM</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>HV</SpecialServiceType>
+                            <LocalServiceType>HV</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>HW</SpecialServiceType>
+                            <LocalServiceType>HW</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>HY</SpecialServiceType>
+                            <LocalServiceType>HY</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>II</SpecialServiceType>
+                            <LocalServiceType>II</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>OO</SpecialServiceType>
+                            <LocalServiceType>OO</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>PA</SpecialServiceType>
+                            <LocalServiceType>PA</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>PD</SpecialServiceType>
+                            <LocalServiceType>PD</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>PT</SpecialServiceType>
+                            <LocalServiceType>PT</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>PU</SpecialServiceType>
+                            <LocalServiceType>PU</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>PV</SpecialServiceType>
+                            <LocalServiceType>PV</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>PW</SpecialServiceType>
+                            <LocalServiceType>PW</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>SC</SpecialServiceType>
+                            <LocalServiceType>SC</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>UB</SpecialServiceType>
+                            <LocalServiceType>UB</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>UC</SpecialServiceType>
+                            <LocalServiceType>UC</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>UD</SpecialServiceType>
+                            <LocalServiceType>UD</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>UE</SpecialServiceType>
+                            <LocalServiceType>UE</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>UF</SpecialServiceType>
+                            <LocalServiceType>UF</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>UG</SpecialServiceType>
+                            <LocalServiceType>UG</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>UH</SpecialServiceType>
+                            <LocalServiceType>UH</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>UI</SpecialServiceType>
+                            <LocalServiceType>UI</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>UJ</SpecialServiceType>
+                            <LocalServiceType>UJ</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>UK</SpecialServiceType>
+                            <LocalServiceType>UK</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>UL</SpecialServiceType>
+                            <LocalServiceType>UL</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>UM</SpecialServiceType>
+                            <LocalServiceType>UM</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>UN</SpecialServiceType>
+                            <LocalServiceType>UN</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>UO</SpecialServiceType>
+                            <LocalServiceType>UO</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>UP</SpecialServiceType>
+                            <LocalServiceType>UP</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>UQ</SpecialServiceType>
+                            <LocalServiceType>UQ</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>UR</SpecialServiceType>
+                            <LocalServiceType>UR</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>US</SpecialServiceType>
+                            <LocalServiceType>US</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>VB</SpecialServiceType>
+                            <LocalServiceType>VB</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>VC</SpecialServiceType>
+                            <LocalServiceType>VC</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>VE</SpecialServiceType>
+                            <LocalServiceType>VE</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>VF</SpecialServiceType>
+                            <LocalServiceType>VF</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>VG</SpecialServiceType>
+                            <LocalServiceType>VG</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                    </Prod>
+                </SBTP>
+            </Srv>
+            <Srv>
+                <GlobalProductCode>1</GlobalProductCode>
+                <MrkSrv>
+                    <LocalProductCode>1</LocalProductCode>
+                    <ProductShortName>EXPRESS DOMESTIC 12:00</ProductShortName>
+                    <LocalProductName>EXPRESS DOMESTIC 12:00</LocalProductName>
+                    <ProductDesc>EXPRESS DOMESTIC 12:00</ProductDesc>
+                    <NetworkTypeCode>TD</NetworkTypeCode>
+                    <POfferedCustAgreement>N</POfferedCustAgreement>
+                    <TransInd>Y</TransInd>
+                    <LocalProductCtryCd>RU</LocalProductCtryCd>
+                    <GlobalServiceType>1</GlobalServiceType>
+                    <LocalServiceName>EXPRESS DOMESTIC 12:00</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>AB</LocalServiceType>
+                    <GlobalServiceName>SATURDAY PICKUP</GlobalServiceName>
+                    <LocalServiceTypeName>SATURDAY PICKUP</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>AB</GlobalServiceType>
+                    <LocalServiceName>SATURDAY PICKUP</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>AG</LocalServiceType>
+                    <GlobalServiceName>DOMESTIC SATURDAY DELIVERY</GlobalServiceName>
+                    <LocalServiceTypeName>SATURDAY DELIVERY</LocalServiceTypeName>
+                    <SOfferedCustAgreement>N</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>AG</GlobalServiceType>
+                    <LocalServiceName>SATURDAY DELIVERY</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>FF</LocalServiceType>
+                    <GlobalServiceName>FUEL SURCHARGE</GlobalServiceName>
+                    <LocalServiceTypeName>FUEL SURCHARGE</LocalServiceTypeName>
+                    <SOfferedCustAgreement>N</SOfferedCustAgreement>
+                    <ChargeCodeType>SCH</ChargeCodeType>
+                    <GlobalServiceType>FF</GlobalServiceType>
+                    <LocalServiceName>FUEL SURCHARGE</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>GG</LocalServiceType>
+                    <GlobalServiceName>PACKAGING ITEM</GlobalServiceName>
+                    <LocalServiceTypeName>PACKAGING</LocalServiceTypeName>
+                    <SOfferedCustAgreement>N</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>GG</GlobalServiceType>
+                    <LocalServiceName>PACKAGING</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>HL</LocalServiceType>
+                    <GlobalServiceName>LIMITED QUANTITIES ADR</GlobalServiceName>
+                    <LocalServiceTypeName>LIMITED QUANTITIES ADR</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>HL</GlobalServiceType>
+                    <LocalServiceName>LIMITED QUANTITIES ADR</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>ID</LocalServiceType>
+                    <GlobalServiceName>EXTENDED LIABILITY</GlobalServiceName>
+                    <LocalServiceTypeName>DOMESTIC EXTENDED LIABILITY</LocalServiceTypeName>
+                    <SOfferedCustAgreement>N</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>ID</GlobalServiceType>
+                    <LocalServiceName>DOMESTIC EXTENDED LIABILITY</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>II</LocalServiceType>
+                    <GlobalServiceName>SHIPMENT INSURANCE</GlobalServiceName>
+                    <LocalServiceTypeName>SHIPMENT INSURANCE</LocalServiceTypeName>
+                    <SOfferedCustAgreement>N</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>II</GlobalServiceType>
+                    <LocalServiceName>SHIPMENT INSURANCE</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>JA</LocalServiceType>
+                    <GlobalServiceName>VERBAL DELIVERY NOTIFICATION</GlobalServiceName>
+                    <LocalServiceTypeName>DELIVERY NOTIFICATION</LocalServiceTypeName>
+                    <SOfferedCustAgreement>N</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>JA</GlobalServiceType>
+                    <LocalServiceName>DELIVERY NOTIFICATION</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>JD</LocalServiceType>
+                    <GlobalServiceName>PROACTIVE TRACKING</GlobalServiceName>
+                    <LocalServiceTypeName>PROACTIVE TRACKING</LocalServiceTypeName>
+                    <SOfferedCustAgreement>N</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>JD</GlobalServiceType>
+                    <LocalServiceName>PROACTIVE TRACKING</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>MA</LocalServiceType>
+                    <GlobalServiceName>ADDRESS CORRECTION</GlobalServiceName>
+                    <LocalServiceTypeName>ADDRESS CORRECTION</LocalServiceTypeName>
+                    <SOfferedCustAgreement>N</SOfferedCustAgreement>
+                    <ChargeCodeType>SCH</ChargeCodeType>
+                    <GlobalServiceType>MA</GlobalServiceType>
+                    <LocalServiceName>ADDRESS CORRECTION</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>PA</LocalServiceType>
+                    <GlobalServiceName>SHIPMENT PREPARATION</GlobalServiceName>
+                    <LocalServiceTypeName>SHIPMENT PREPARATION</LocalServiceTypeName>
+                    <SOfferedCustAgreement>N</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>PA</GlobalServiceType>
+                    <LocalServiceName>SHIPMENT PREPARATION</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>PD</LocalServiceType>
+                    <GlobalServiceName>DATA ENTRY</GlobalServiceName>
+                    <LocalServiceTypeName>DATA ENTRY</LocalServiceTypeName>
+                    <SOfferedCustAgreement>N</SOfferedCustAgreement>
+                    <ChargeCodeType>SCH</ChargeCodeType>
+                    <GlobalServiceType>PD</GlobalServiceType>
+                    <LocalServiceName>DATA ENTRY</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>SC</LocalServiceType>
+                    <GlobalServiceName>NAMED SIGNATURE</GlobalServiceName>
+                    <LocalServiceTypeName>NAMED SIGNATURE</LocalServiceTypeName>
+                    <SOfferedCustAgreement>N</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>SC</GlobalServiceType>
+                    <LocalServiceName>NAMED SIGNATURE</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>SF</LocalServiceType>
+                    <GlobalServiceName>DIRECT SIGNATURE</GlobalServiceName>
+                    <LocalServiceTypeName>DIRECT SIGNATURE</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>SF</GlobalServiceType>
+                    <LocalServiceName>DIRECT SIGNATURE</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>YC</LocalServiceType>
+                    <GlobalServiceName>NON STACKABLE PALLET</GlobalServiceName>
+                    <LocalServiceTypeName>NON STACKABLE PALLET</LocalServiceTypeName>
+                    <SOfferedCustAgreement>N</SOfferedCustAgreement>
+                    <ChargeCodeType>SCH</ChargeCodeType>
+                    <GlobalServiceType>YC</GlobalServiceType>
+                    <LocalServiceName>NON STACKABLE PALLET</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>YK</LocalServiceType>
+                    <GlobalServiceName>12:00 PREMIUM</GlobalServiceName>
+                    <LocalServiceTypeName>12:00 PREMIUM</LocalServiceTypeName>
+                    <SOfferedCustAgreement>N</SOfferedCustAgreement>
+                    <ChargeCodeType>SCH</ChargeCodeType>
+                    <GlobalServiceType>YK</GlobalServiceType>
+                    <LocalServiceName>12:00 PREMIUM</LocalServiceName>
+                </MrkSrv>
+                <SBTP>
+                    <Prod>
+                        <VldSrvComb>
+                            <SpecialServiceType>AB</SpecialServiceType>
+                            <LocalServiceType>AB</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>AG</SpecialServiceType>
+                            <LocalServiceType>AG</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>FF</SpecialServiceType>
+                            <LocalServiceType>FF</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>GG</SpecialServiceType>
+                            <LocalServiceType>GG</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>HL</SpecialServiceType>
+                            <LocalServiceType>HL</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>ID</SpecialServiceType>
+                            <LocalServiceType>ID</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>II</SpecialServiceType>
+                            <LocalServiceType>II</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>JA</SpecialServiceType>
+                            <LocalServiceType>JA</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>JD</SpecialServiceType>
+                            <LocalServiceType>JD</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>MA</SpecialServiceType>
+                            <LocalServiceType>MA</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>PA</SpecialServiceType>
+                            <LocalServiceType>PA</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>PD</SpecialServiceType>
+                            <LocalServiceType>PD</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>SC</SpecialServiceType>
+                            <LocalServiceType>SC</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>SF</SpecialServiceType>
+                            <LocalServiceType>SF</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>YC</SpecialServiceType>
+                            <LocalServiceType>YC</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>YK</SpecialServiceType>
+                            <LocalServiceType>YK</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                    </Prod>
+                </SBTP>
+            </Srv>
+            <Srv>
+                <GlobalProductCode>N</GlobalProductCode>
+                <MrkSrv>
+                    <LocalProductCode>J</LocalProductCode>
+                    <ProductShortName>DOMESTIC THIRD PARTY</ProductShortName>
+                    <LocalProductName>DOMESTIC THIRD PARTY</LocalProductName>
+                    <ProductDesc>DOMESTIC THIRD PARTY</ProductDesc>
+                    <NetworkTypeCode>TD</NetworkTypeCode>
+                    <POfferedCustAgreement>Y</POfferedCustAgreement>
+                    <TransInd>N</TransInd>
+                    <LocalProductCtryCd>RU</LocalProductCtryCd>
+                    <GlobalServiceType>N</GlobalServiceType>
+                    <LocalServiceName>DOMESTIC THIRD PARTY</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>AB</LocalServiceType>
+                    <GlobalServiceName>SATURDAY PICKUP</GlobalServiceName>
+                    <LocalServiceTypeName>SATURDAY PICKUP</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>AB</GlobalServiceType>
+                    <LocalServiceName>SATURDAY PICKUP</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>AC</LocalServiceType>
+                    <GlobalServiceName>HOLIDAY DELIVERY</GlobalServiceName>
+                    <LocalServiceTypeName>HOLIDAY DELIVERY</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>AC</GlobalServiceType>
+                    <LocalServiceName>HOLIDAY DELIVERY</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>AG</LocalServiceType>
+                    <GlobalServiceName>DOMESTIC SATURDAY DELIVERY</GlobalServiceName>
+                    <LocalServiceTypeName>SATURDAY DELIVERY</LocalServiceTypeName>
+                    <SOfferedCustAgreement>N</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>AG</GlobalServiceType>
+                    <LocalServiceName>SATURDAY DELIVERY</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>FF</LocalServiceType>
+                    <GlobalServiceName>FUEL SURCHARGE</GlobalServiceName>
+                    <LocalServiceTypeName>FUEL SURCHARGE</LocalServiceTypeName>
+                    <SOfferedCustAgreement>N</SOfferedCustAgreement>
+                    <ChargeCodeType>SCH</ChargeCodeType>
+                    <GlobalServiceType>FF</GlobalServiceType>
+                    <LocalServiceName>FUEL SURCHARGE</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>GB</LocalServiceType>
+                    <GlobalServiceName>LAPTOP BOX</GlobalServiceName>
+                    <LocalServiceTypeName>LAPTOP BOX</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>GB</GlobalServiceType>
+                    <LocalServiceName>LAPTOP BOX</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>GG</LocalServiceType>
+                    <GlobalServiceName>PACKAGING ITEM</GlobalServiceName>
+                    <LocalServiceTypeName>PACKAGING</LocalServiceTypeName>
+                    <SOfferedCustAgreement>N</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>GG</GlobalServiceType>
+                    <LocalServiceName>PACKAGING</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>HD</LocalServiceType>
+                    <GlobalServiceName>LITHIUM ION PI966 SECTION II</GlobalServiceName>
+                    <LocalServiceTypeName>LITHIUM ION PI966 SECTION II</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>HD</GlobalServiceType>
+                    <LocalServiceName>LITHIUM ION PI966 SECTION II</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>HM</LocalServiceType>
+                    <GlobalServiceName>LITHIUM METAL PI969 SECTION II</GlobalServiceName>
+                    <LocalServiceTypeName>LITHIUM METAL</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>HM</GlobalServiceType>
+                    <LocalServiceName>LITHIUM METAL</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>HV</LocalServiceType>
+                    <GlobalServiceName>LITHIUM ION PI967-SECTION II</GlobalServiceName>
+                    <LocalServiceTypeName>LITHIUM ION PI967-SECTION II</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>HV</GlobalServiceType>
+                    <LocalServiceName>LITHIUM ION PI967-SECTION II</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>HW</LocalServiceType>
+                    <GlobalServiceName>LITHIUM METAL PI970-SECTION II</GlobalServiceName>
+                    <LocalServiceTypeName>LITHIUM METAL PI970-SECTION II</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>HW</GlobalServiceType>
+                    <LocalServiceName>LITHIUM METAL PI970-SECTION II</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>ID</LocalServiceType>
+                    <GlobalServiceName>EXTENDED LIABILITY</GlobalServiceName>
+                    <LocalServiceTypeName>DOMESTIC EXTENDED LIABILITY</LocalServiceTypeName>
+                    <SOfferedCustAgreement>N</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>ID</GlobalServiceType>
+                    <LocalServiceName>DOMESTIC EXTENDED LIABILITY</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>II</LocalServiceType>
+                    <GlobalServiceName>SHIPMENT INSURANCE</GlobalServiceName>
+                    <LocalServiceTypeName>SHIPMENT INSURANCE</LocalServiceTypeName>
+                    <SOfferedCustAgreement>N</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>II</GlobalServiceType>
+                    <LocalServiceName>SHIPMENT INSURANCE</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>JA</LocalServiceType>
+                    <GlobalServiceName>VERBAL DELIVERY NOTIFICATION</GlobalServiceName>
+                    <LocalServiceTypeName>DELIVERY NOTIFICATION</LocalServiceTypeName>
+                    <SOfferedCustAgreement>N</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>JA</GlobalServiceType>
+                    <LocalServiceName>DELIVERY NOTIFICATION</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>JD</LocalServiceType>
+                    <GlobalServiceName>PROACTIVE TRACKING</GlobalServiceName>
+                    <LocalServiceTypeName>PROACTIVE TRACKING</LocalServiceTypeName>
+                    <SOfferedCustAgreement>N</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>JD</GlobalServiceType>
+                    <LocalServiceName>PROACTIVE TRACKING</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>JY</LocalServiceType>
+                    <GlobalServiceName>COURIER TIME WINDOW</GlobalServiceName>
+                    <LocalServiceTypeName>COURIER TIME WINDOW</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>TEC</ChargeCodeType>
+                    <GlobalServiceType>JY</GlobalServiceType>
+                    <LocalServiceName>COURIER TIME WINDOW</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>KB</LocalServiceType>
+                    <GlobalServiceName>CASH ON DELIVERY</GlobalServiceName>
+                    <LocalServiceTypeName>CASH ON DELIVERY</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>KB</GlobalServiceType>
+                    <LocalServiceName>CASH ON DELIVERY</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>LE</LocalServiceType>
+                    <GlobalServiceName>STORAGE AT FACILITY</GlobalServiceName>
+                    <LocalServiceTypeName>STORAGE AT FACILITY</LocalServiceTypeName>
+                    <SOfferedCustAgreement>N</SOfferedCustAgreement>
+                    <ChargeCodeType>SCH</ChargeCodeType>
+                    <GlobalServiceType>LE</GlobalServiceType>
+                    <LocalServiceName>STORAGE AT FACILITY</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>MA</LocalServiceType>
+                    <GlobalServiceName>ADDRESS CORRECTION</GlobalServiceName>
+                    <LocalServiceTypeName>ADDRESS CORRECTION</LocalServiceTypeName>
+                    <SOfferedCustAgreement>N</SOfferedCustAgreement>
+                    <ChargeCodeType>SCH</ChargeCodeType>
+                    <GlobalServiceType>MA</GlobalServiceType>
+                    <LocalServiceName>ADDRESS CORRECTION</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>OE</LocalServiceType>
+                    <GlobalServiceName>OUT OF SERVICE AREA</GlobalServiceName>
+                    <LocalServiceTypeName>OUT OF SERVICE AREA</LocalServiceTypeName>
+                    <SOfferedCustAgreement>N</SOfferedCustAgreement>
+                    <ChargeCodeType>SCH</ChargeCodeType>
+                    <GlobalServiceType>OE</GlobalServiceType>
+                    <LocalServiceName>OUT OF SERVICE AREA</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>OO</LocalServiceType>
+                    <GlobalServiceName>REMOTE AREA DELIVERY</GlobalServiceName>
+                    <LocalServiceTypeName>REMOTE AREA DELIVERY</LocalServiceTypeName>
+                    <SOfferedCustAgreement>N</SOfferedCustAgreement>
+                    <ChargeCodeType>SCH</ChargeCodeType>
+                    <GlobalServiceType>OO</GlobalServiceType>
+                    <LocalServiceName>REMOTE AREA DELIVERY</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>PA</LocalServiceType>
+                    <GlobalServiceName>SHIPMENT PREPARATION</GlobalServiceName>
+                    <LocalServiceTypeName>SHIPMENT PREPARATION</LocalServiceTypeName>
+                    <SOfferedCustAgreement>N</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>PA</GlobalServiceType>
+                    <LocalServiceName>SHIPMENT PREPARATION</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>PD</LocalServiceType>
+                    <GlobalServiceName>DATA ENTRY</GlobalServiceName>
+                    <LocalServiceTypeName>DATA ENTRY</LocalServiceTypeName>
+                    <SOfferedCustAgreement>N</SOfferedCustAgreement>
+                    <ChargeCodeType>SCH</ChargeCodeType>
+                    <GlobalServiceType>PD</GlobalServiceType>
+                    <LocalServiceName>DATA ENTRY</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>PT</LocalServiceType>
+                    <GlobalServiceName>DATA STAGING 03</GlobalServiceName>
+                    <LocalServiceTypeName>DATA STAGING 03</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>TEC</ChargeCodeType>
+                    <GlobalServiceType>PT</GlobalServiceType>
+                    <LocalServiceName>DATA STAGING 03</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>PU</LocalServiceType>
+                    <GlobalServiceName>DATA STAGING 06</GlobalServiceName>
+                    <LocalServiceTypeName>DATA STAGING 06</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>TEC</ChargeCodeType>
+                    <GlobalServiceType>PU</GlobalServiceType>
+                    <LocalServiceName>DATA STAGING 06</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>PV</LocalServiceType>
+                    <GlobalServiceName>DATA STAGING 12</GlobalServiceName>
+                    <LocalServiceTypeName>DATA STAGING 12</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>TEC</ChargeCodeType>
+                    <GlobalServiceType>PV</GlobalServiceType>
+                    <LocalServiceName>DATA STAGING 12</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>PW</LocalServiceType>
+                    <GlobalServiceName>DATA STAGING 24</GlobalServiceName>
+                    <LocalServiceTypeName>DATA STAGING 24</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>TEC</ChargeCodeType>
+                    <GlobalServiceType>PW</GlobalServiceType>
+                    <LocalServiceName>DATA STAGING 24</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>QA</LocalServiceType>
+                    <GlobalServiceName>DEDICATED PICKUP</GlobalServiceName>
+                    <LocalServiceTypeName>DEDICATED PICKUP</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>QA</GlobalServiceType>
+                    <LocalServiceName>DEDICATED PICKUP</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>QH</LocalServiceType>
+                    <GlobalServiceName>BYPASS INJECTION</GlobalServiceName>
+                    <LocalServiceTypeName>BYPASS INJECTION</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>TEC</ChargeCodeType>
+                    <GlobalServiceType>QH</GlobalServiceType>
+                    <LocalServiceName>BYPASS INJECTION</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>SC</LocalServiceType>
+                    <GlobalServiceName>NAMED SIGNATURE</GlobalServiceName>
+                    <LocalServiceTypeName>NAMED SIGNATURE</LocalServiceTypeName>
+                    <SOfferedCustAgreement>N</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>SC</GlobalServiceType>
+                    <LocalServiceName>NAMED SIGNATURE</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>SW</LocalServiceType>
+                    <GlobalServiceName>LEAVE WITH NEIGHBOUR</GlobalServiceName>
+                    <LocalServiceTypeName>LEAVE WITH NEIGHBOUR</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>SW</GlobalServiceType>
+                    <LocalServiceName>LEAVE WITH NEIGHBOUR</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>TA</LocalServiceType>
+                    <GlobalServiceName>DEDICATED DELIVERY</GlobalServiceName>
+                    <LocalServiceTypeName>DEDICATED DELIVERY</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>TA</GlobalServiceType>
+                    <LocalServiceName>DEDICATED DELIVERY</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>TE</LocalServiceType>
+                    <GlobalServiceName>DELIVERY ON APPOINTMENT</GlobalServiceName>
+                    <LocalServiceTypeName>DELIVERY ON APPINTMENT</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>TE</GlobalServiceType>
+                    <LocalServiceName>DELIVERY ON APPINTMENT</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>TT</LocalServiceType>
+                    <GlobalServiceName>SCHEDULED DELIVERY</GlobalServiceName>
+                    <LocalServiceTypeName>SCHEDULED DELIVERY</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>TEC</ChargeCodeType>
+                    <GlobalServiceType>TT</GlobalServiceType>
+                    <LocalServiceName>SCHEDULED DELIVERY</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>TV</LocalServiceType>
+                    <GlobalServiceName>COLLECT FROM SERVICE POINT</GlobalServiceName>
+                    <LocalServiceTypeName>COLLECT FROM SERVICE POINT</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>TEC</ChargeCodeType>
+                    <GlobalServiceType>TV</GlobalServiceType>
+                    <LocalServiceName>COLLECT FROM SERVICE POINT</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>YC</LocalServiceType>
+                    <GlobalServiceName>NON STACKABLE PALLET</GlobalServiceName>
+                    <LocalServiceTypeName>NON STACKABLE PALLET</LocalServiceTypeName>
+                    <SOfferedCustAgreement>N</SOfferedCustAgreement>
+                    <ChargeCodeType>SCH</ChargeCodeType>
+                    <GlobalServiceType>YC</GlobalServiceType>
+                    <LocalServiceName>NON STACKABLE PALLET</LocalServiceName>
+                </MrkSrv>
+                <SBTP>
+                    <Prod>
+                        <VldSrvComb>
+                            <SpecialServiceType>AB</SpecialServiceType>
+                            <LocalServiceType>AB</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>AC</SpecialServiceType>
+                            <LocalServiceType>AC</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>AG</SpecialServiceType>
+                            <LocalServiceType>AG</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>FF</SpecialServiceType>
+                            <LocalServiceType>FF</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>GB</SpecialServiceType>
+                            <LocalServiceType>GB</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>GG</SpecialServiceType>
+                            <LocalServiceType>GG</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>HD</SpecialServiceType>
+                            <LocalServiceType>HD</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>HM</SpecialServiceType>
+                            <LocalServiceType>HM</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>HV</SpecialServiceType>
+                            <LocalServiceType>HV</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>HW</SpecialServiceType>
+                            <LocalServiceType>HW</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>ID</SpecialServiceType>
+                            <LocalServiceType>ID</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>II</SpecialServiceType>
+                            <LocalServiceType>II</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>JA</SpecialServiceType>
+                            <LocalServiceType>JA</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>JD</SpecialServiceType>
+                            <LocalServiceType>JD</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>JY</SpecialServiceType>
+                            <LocalServiceType>JY</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>KB</SpecialServiceType>
+                            <LocalServiceType>KB</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>LE</SpecialServiceType>
+                            <LocalServiceType>LE</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>MA</SpecialServiceType>
+                            <LocalServiceType>MA</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>OE</SpecialServiceType>
+                            <LocalServiceType>OE</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>OO</SpecialServiceType>
+                            <LocalServiceType>OO</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>PA</SpecialServiceType>
+                            <LocalServiceType>PA</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>PD</SpecialServiceType>
+                            <LocalServiceType>PD</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>PT</SpecialServiceType>
+                            <LocalServiceType>PT</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>PU</SpecialServiceType>
+                            <LocalServiceType>PU</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>PV</SpecialServiceType>
+                            <LocalServiceType>PV</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>PW</SpecialServiceType>
+                            <LocalServiceType>PW</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>QA</SpecialServiceType>
+                            <LocalServiceType>QA</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>QH</SpecialServiceType>
+                            <LocalServiceType>QH</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>SC</SpecialServiceType>
+                            <LocalServiceType>SC</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>SW</SpecialServiceType>
+                            <LocalServiceType>SW</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>TA</SpecialServiceType>
+                            <LocalServiceType>TA</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>TE</SpecialServiceType>
+                            <LocalServiceType>TE</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>TT</SpecialServiceType>
+                            <LocalServiceType>TT</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>TV</SpecialServiceType>
+                            <LocalServiceType>TV</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>YC</SpecialServiceType>
+                            <LocalServiceType>YC</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                    </Prod>
+                </SBTP>
+            </Srv>
+            <Srv>
+                <GlobalProductCode>7</GlobalProductCode>
+                <MrkSrv>
+                    <LocalProductCode>7</LocalProductCode>
+                    <ProductShortName>EXPRESS EASY</ProductShortName>
+                    <LocalProductName>EXPRESS EASY DOC</LocalProductName>
+                    <ProductDesc>EXPRESS EASY DOC</ProductDesc>
+                    <NetworkTypeCode>TD</NetworkTypeCode>
+                    <POfferedCustAgreement>Y</POfferedCustAgreement>
+                    <TransInd>N</TransInd>
+                    <LocalProductCtryCd>RU</LocalProductCtryCd>
+                    <GlobalServiceType>7</GlobalServiceType>
+                    <LocalServiceName>EXPRESS EASY DOC</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>FF</LocalServiceType>
+                    <GlobalServiceName>FUEL SURCHARGE</GlobalServiceName>
+                    <LocalServiceTypeName>FUEL SURCHARGE</LocalServiceTypeName>
+                    <SOfferedCustAgreement>N</SOfferedCustAgreement>
+                    <ChargeCodeType>SCH</ChargeCodeType>
+                    <GlobalServiceType>FF</GlobalServiceType>
+                    <LocalServiceName>FUEL SURCHARGE</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>II</LocalServiceType>
+                    <GlobalServiceName>SHIPMENT INSURANCE</GlobalServiceName>
+                    <LocalServiceTypeName>SHIPMENT INSURANCE</LocalServiceTypeName>
+                    <SOfferedCustAgreement>N</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>II</GlobalServiceType>
+                    <LocalServiceName>SHIPMENT INSURANCE</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>JA</LocalServiceType>
+                    <GlobalServiceName>VERBAL DELIVERY NOTIFICATION</GlobalServiceName>
+                    <LocalServiceTypeName>DELIVERY NOTIFICATION</LocalServiceTypeName>
+                    <SOfferedCustAgreement>N</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>JA</GlobalServiceType>
+                    <LocalServiceName>DELIVERY NOTIFICATION</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>JD</LocalServiceType>
+                    <GlobalServiceName>PROACTIVE TRACKING</GlobalServiceName>
+                    <LocalServiceTypeName>PROACTIVE TRACKING</LocalServiceTypeName>
+                    <SOfferedCustAgreement>N</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>JD</GlobalServiceType>
+                    <LocalServiceName>PROACTIVE TRACKING</LocalServiceName>
+                </MrkSrv>
+                <SBTP>
+                    <Prod>
+                        <VldSrvComb>
+                            <SpecialServiceType>FF</SpecialServiceType>
+                            <LocalServiceType>FF</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>II</SpecialServiceType>
+                            <LocalServiceType>II</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>JA</SpecialServiceType>
+                            <LocalServiceType>JA</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>JD</SpecialServiceType>
+                            <LocalServiceType>JD</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                    </Prod>
+                </SBTP>
+            </Srv>
+            <Srv>
+                <GlobalProductCode>2</GlobalProductCode>
+                <MrkSrv>
+                    <LocalProductCode>2</LocalProductCode>
+                    <ProductShortName>DOM EXPRESS</ProductShortName>
+                    <LocalProductName>DOM EXPRESS</LocalProductName>
+                    <ProductDesc>DOM EXPRESS</ProductDesc>
+                    <NetworkTypeCode>TD</NetworkTypeCode>
+                    <POfferedCustAgreement>Y</POfferedCustAgreement>
+                    <TransInd>N</TransInd>
+                    <LocalProductCtryCd>RU</LocalProductCtryCd>
+                    <GlobalServiceType>2</GlobalServiceType>
+                    <LocalServiceName>DOM EXPRESS</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>FF</LocalServiceType>
+                    <GlobalServiceName>FUEL SURCHARGE</GlobalServiceName>
+                    <LocalServiceTypeName>FUEL SURCHARGE</LocalServiceTypeName>
+                    <SOfferedCustAgreement>N</SOfferedCustAgreement>
+                    <ChargeCodeType>SCH</ChargeCodeType>
+                    <GlobalServiceType>FF</GlobalServiceType>
+                    <LocalServiceName>FUEL SURCHARGE</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>HD</LocalServiceType>
+                    <GlobalServiceName>LITHIUM ION PI966 SECTION II</GlobalServiceName>
+                    <LocalServiceTypeName>LITHIUM ION PI966 SECTION II</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>HD</GlobalServiceType>
+                    <LocalServiceName>LITHIUM ION PI966 SECTION II</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>HM</LocalServiceType>
+                    <GlobalServiceName>LITHIUM METAL PI969 SECTION II</GlobalServiceName>
+                    <LocalServiceTypeName>LITHIUM METAL</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>HM</GlobalServiceType>
+                    <LocalServiceName>LITHIUM METAL</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>HV</LocalServiceType>
+                    <GlobalServiceName>LITHIUM ION PI967-SECTION II</GlobalServiceName>
+                    <LocalServiceTypeName>LITHIUM ION PI967-SECTION II</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>HV</GlobalServiceType>
+                    <LocalServiceName>LITHIUM ION PI967-SECTION II</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>HW</LocalServiceType>
+                    <GlobalServiceName>LITHIUM METAL PI970-SECTION II</GlobalServiceName>
+                    <LocalServiceTypeName>LITHIUM METAL PI970-SECTION II</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>HW</GlobalServiceType>
+                    <LocalServiceName>LITHIUM METAL PI970-SECTION II</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>II</LocalServiceType>
+                    <GlobalServiceName>SHIPMENT INSURANCE</GlobalServiceName>
+                    <LocalServiceTypeName>SHIPMENT INSURANCE</LocalServiceTypeName>
+                    <SOfferedCustAgreement>N</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>II</GlobalServiceType>
+                    <LocalServiceName>SHIPMENT INSURANCE</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>KB</LocalServiceType>
+                    <GlobalServiceName>CASH ON DELIVERY</GlobalServiceName>
+                    <LocalServiceTypeName>CASH ON DELIVERY</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>KB</GlobalServiceType>
+                    <LocalServiceName>CASH ON DELIVERY</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>OO</LocalServiceType>
+                    <GlobalServiceName>REMOTE AREA DELIVERY</GlobalServiceName>
+                    <LocalServiceTypeName>REMOTE AREA DELIVERY</LocalServiceTypeName>
+                    <SOfferedCustAgreement>N</SOfferedCustAgreement>
+                    <ChargeCodeType>SCH</ChargeCodeType>
+                    <GlobalServiceType>OO</GlobalServiceType>
+                    <LocalServiceName>REMOTE AREA DELIVERY</LocalServiceName>
+                </MrkSrv>
+                <SBTP>
+                    <Prod>
+                        <VldSrvComb>
+                            <SpecialServiceType>FF</SpecialServiceType>
+                            <LocalServiceType>FF</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>HD</SpecialServiceType>
+                            <LocalServiceType>HD</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>HM</SpecialServiceType>
+                            <LocalServiceType>HM</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>HV</SpecialServiceType>
+                            <LocalServiceType>HV</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>HW</SpecialServiceType>
+                            <LocalServiceType>HW</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>II</SpecialServiceType>
+                            <LocalServiceType>II</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>KB</SpecialServiceType>
+                            <LocalServiceType>KB</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>OO</SpecialServiceType>
+                            <LocalServiceType>OO</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                    </Prod>
+                </SBTP>
+            </Srv>
+            <Srv>
+                <GlobalProductCode>N</GlobalProductCode>
+                <MrkSrv>
+                    <LocalProductCode>N</LocalProductCode>
+                    <ProductShortName>EXPRESS DOMESTIC</ProductShortName>
+                    <LocalProductName>EXPRESS DOMESTIC</LocalProductName>
+                    <ProductDesc>EXPRESS DOMESTIC</ProductDesc>
+                    <NetworkTypeCode>TD</NetworkTypeCode>
+                    <POfferedCustAgreement>N</POfferedCustAgreement>
+                    <TransInd>Y</TransInd>
+                    <LocalProductCtryCd>RU</LocalProductCtryCd>
+                    <GlobalServiceType>N</GlobalServiceType>
+                    <LocalServiceName>EXPRESS DOMESTIC</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>AB</LocalServiceType>
+                    <GlobalServiceName>SATURDAY PICKUP</GlobalServiceName>
+                    <LocalServiceTypeName>SATURDAY PICKUP</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>AB</GlobalServiceType>
+                    <LocalServiceName>SATURDAY PICKUP</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>AC</LocalServiceType>
+                    <GlobalServiceName>HOLIDAY DELIVERY</GlobalServiceName>
+                    <LocalServiceTypeName>HOLIDAY DELIVERY</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>AC</GlobalServiceType>
+                    <LocalServiceName>HOLIDAY DELIVERY</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>AG</LocalServiceType>
+                    <GlobalServiceName>DOMESTIC SATURDAY DELIVERY</GlobalServiceName>
+                    <LocalServiceTypeName>SATURDAY DELIVERY</LocalServiceTypeName>
+                    <SOfferedCustAgreement>N</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>AG</GlobalServiceType>
+                    <LocalServiceName>SATURDAY DELIVERY</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>FF</LocalServiceType>
+                    <GlobalServiceName>FUEL SURCHARGE</GlobalServiceName>
+                    <LocalServiceTypeName>FUEL SURCHARGE</LocalServiceTypeName>
+                    <SOfferedCustAgreement>N</SOfferedCustAgreement>
+                    <ChargeCodeType>SCH</ChargeCodeType>
+                    <GlobalServiceType>FF</GlobalServiceType>
+                    <LocalServiceName>FUEL SURCHARGE</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>GB</LocalServiceType>
+                    <GlobalServiceName>LAPTOP BOX</GlobalServiceName>
+                    <LocalServiceTypeName>LAPTOP BOX</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>GB</GlobalServiceType>
+                    <LocalServiceName>LAPTOP BOX</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>GG</LocalServiceType>
+                    <GlobalServiceName>PACKAGING ITEM</GlobalServiceName>
+                    <LocalServiceTypeName>PACKAGING</LocalServiceTypeName>
+                    <SOfferedCustAgreement>N</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>GG</GlobalServiceType>
+                    <LocalServiceName>PACKAGING</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>HD</LocalServiceType>
+                    <GlobalServiceName>LITHIUM ION PI966 SECTION II</GlobalServiceName>
+                    <LocalServiceTypeName>LITHIUM ION PI966 SECTION II</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>HD</GlobalServiceType>
+                    <LocalServiceName>LITHIUM ION PI966 SECTION II</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>HL</LocalServiceType>
+                    <GlobalServiceName>LIMITED QUANTITIES ADR</GlobalServiceName>
+                    <LocalServiceTypeName>LIMITED QUANTITIES ADR</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>HL</GlobalServiceType>
+                    <LocalServiceName>LIMITED QUANTITIES ADR</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>HM</LocalServiceType>
+                    <GlobalServiceName>LITHIUM METAL PI969 SECTION II</GlobalServiceName>
+                    <LocalServiceTypeName>LITHIUM METAL</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>HM</GlobalServiceType>
+                    <LocalServiceName>LITHIUM METAL</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>HV</LocalServiceType>
+                    <GlobalServiceName>LITHIUM ION PI967-SECTION II</GlobalServiceName>
+                    <LocalServiceTypeName>LITHIUM ION PI967-SECTION II</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>HV</GlobalServiceType>
+                    <LocalServiceName>LITHIUM ION PI967-SECTION II</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>HW</LocalServiceType>
+                    <GlobalServiceName>LITHIUM METAL PI970-SECTION II</GlobalServiceName>
+                    <LocalServiceTypeName>LITHIUM METAL PI970-SECTION II</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>HW</GlobalServiceType>
+                    <LocalServiceName>LITHIUM METAL PI970-SECTION II</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>ID</LocalServiceType>
+                    <GlobalServiceName>EXTENDED LIABILITY</GlobalServiceName>
+                    <LocalServiceTypeName>DOMESTIC EXTENDED LIABILITY</LocalServiceTypeName>
+                    <SOfferedCustAgreement>N</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>ID</GlobalServiceType>
+                    <LocalServiceName>DOMESTIC EXTENDED LIABILITY</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>II</LocalServiceType>
+                    <GlobalServiceName>SHIPMENT INSURANCE</GlobalServiceName>
+                    <LocalServiceTypeName>SHIPMENT INSURANCE</LocalServiceTypeName>
+                    <SOfferedCustAgreement>N</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>II</GlobalServiceType>
+                    <LocalServiceName>SHIPMENT INSURANCE</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>JA</LocalServiceType>
+                    <GlobalServiceName>VERBAL DELIVERY NOTIFICATION</GlobalServiceName>
+                    <LocalServiceTypeName>DELIVERY NOTIFICATION</LocalServiceTypeName>
+                    <SOfferedCustAgreement>N</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>JA</GlobalServiceType>
+                    <LocalServiceName>DELIVERY NOTIFICATION</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>JD</LocalServiceType>
+                    <GlobalServiceName>PROACTIVE TRACKING</GlobalServiceName>
+                    <LocalServiceTypeName>PROACTIVE TRACKING</LocalServiceTypeName>
+                    <SOfferedCustAgreement>N</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>JD</GlobalServiceType>
+                    <LocalServiceName>PROACTIVE TRACKING</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>JY</LocalServiceType>
+                    <GlobalServiceName>COURIER TIME WINDOW</GlobalServiceName>
+                    <LocalServiceTypeName>COURIER TIME WINDOW</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>TEC</ChargeCodeType>
+                    <GlobalServiceType>JY</GlobalServiceType>
+                    <LocalServiceName>COURIER TIME WINDOW</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>KB</LocalServiceType>
+                    <GlobalServiceName>CASH ON DELIVERY</GlobalServiceName>
+                    <LocalServiceTypeName>CASH ON DELIVERY</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>KB</GlobalServiceType>
+                    <LocalServiceName>CASH ON DELIVERY</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>LE</LocalServiceType>
+                    <GlobalServiceName>STORAGE AT FACILITY</GlobalServiceName>
+                    <LocalServiceTypeName>STORAGE AT FACILITY</LocalServiceTypeName>
+                    <SOfferedCustAgreement>N</SOfferedCustAgreement>
+                    <ChargeCodeType>SCH</ChargeCodeType>
+                    <GlobalServiceType>LE</GlobalServiceType>
+                    <LocalServiceName>STORAGE AT FACILITY</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>MA</LocalServiceType>
+                    <GlobalServiceName>ADDRESS CORRECTION</GlobalServiceName>
+                    <LocalServiceTypeName>ADDRESS CORRECTION</LocalServiceTypeName>
+                    <SOfferedCustAgreement>N</SOfferedCustAgreement>
+                    <ChargeCodeType>SCH</ChargeCodeType>
+                    <GlobalServiceType>MA</GlobalServiceType>
+                    <LocalServiceName>ADDRESS CORRECTION</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>OE</LocalServiceType>
+                    <GlobalServiceName>OUT OF SERVICE AREA</GlobalServiceName>
+                    <LocalServiceTypeName>OUT OF SERVICE AREA</LocalServiceTypeName>
+                    <SOfferedCustAgreement>N</SOfferedCustAgreement>
+                    <ChargeCodeType>SCH</ChargeCodeType>
+                    <GlobalServiceType>OE</GlobalServiceType>
+                    <LocalServiceName>OUT OF SERVICE AREA</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>OO</LocalServiceType>
+                    <GlobalServiceName>REMOTE AREA DELIVERY</GlobalServiceName>
+                    <LocalServiceTypeName>REMOTE AREA DELIVERY</LocalServiceTypeName>
+                    <SOfferedCustAgreement>N</SOfferedCustAgreement>
+                    <ChargeCodeType>SCH</ChargeCodeType>
+                    <GlobalServiceType>OO</GlobalServiceType>
+                    <LocalServiceName>REMOTE AREA DELIVERY</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>PA</LocalServiceType>
+                    <GlobalServiceName>SHIPMENT PREPARATION</GlobalServiceName>
+                    <LocalServiceTypeName>SHIPMENT PREPARATION</LocalServiceTypeName>
+                    <SOfferedCustAgreement>N</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>PA</GlobalServiceType>
+                    <LocalServiceName>SHIPMENT PREPARATION</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>PD</LocalServiceType>
+                    <GlobalServiceName>DATA ENTRY</GlobalServiceName>
+                    <LocalServiceTypeName>DATA ENTRY</LocalServiceTypeName>
+                    <SOfferedCustAgreement>N</SOfferedCustAgreement>
+                    <ChargeCodeType>SCH</ChargeCodeType>
+                    <GlobalServiceType>PD</GlobalServiceType>
+                    <LocalServiceName>DATA ENTRY</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>PT</LocalServiceType>
+                    <GlobalServiceName>DATA STAGING 03</GlobalServiceName>
+                    <LocalServiceTypeName>DATA STAGING 03</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>TEC</ChargeCodeType>
+                    <GlobalServiceType>PT</GlobalServiceType>
+                    <LocalServiceName>DATA STAGING 03</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>PU</LocalServiceType>
+                    <GlobalServiceName>DATA STAGING 06</GlobalServiceName>
+                    <LocalServiceTypeName>DATA STAGING 06</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>TEC</ChargeCodeType>
+                    <GlobalServiceType>PU</GlobalServiceType>
+                    <LocalServiceName>DATA STAGING 06</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>PV</LocalServiceType>
+                    <GlobalServiceName>DATA STAGING 12</GlobalServiceName>
+                    <LocalServiceTypeName>DATA STAGING 12</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>TEC</ChargeCodeType>
+                    <GlobalServiceType>PV</GlobalServiceType>
+                    <LocalServiceName>DATA STAGING 12</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>PW</LocalServiceType>
+                    <GlobalServiceName>DATA STAGING 24</GlobalServiceName>
+                    <LocalServiceTypeName>DATA STAGING 24</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>TEC</ChargeCodeType>
+                    <GlobalServiceType>PW</GlobalServiceType>
+                    <LocalServiceName>DATA STAGING 24</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>QA</LocalServiceType>
+                    <GlobalServiceName>DEDICATED PICKUP</GlobalServiceName>
+                    <LocalServiceTypeName>DEDICATED PICKUP</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>QA</GlobalServiceType>
+                    <LocalServiceName>DEDICATED PICKUP</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>QH</LocalServiceType>
+                    <GlobalServiceName>BYPASS INJECTION</GlobalServiceName>
+                    <LocalServiceTypeName>BYPASS INJECTION</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>TEC</ChargeCodeType>
+                    <GlobalServiceType>QH</GlobalServiceType>
+                    <LocalServiceName>BYPASS INJECTION</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>SC</LocalServiceType>
+                    <GlobalServiceName>NAMED SIGNATURE</GlobalServiceName>
+                    <LocalServiceTypeName>NAMED SIGNATURE</LocalServiceTypeName>
+                    <SOfferedCustAgreement>N</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>SC</GlobalServiceType>
+                    <LocalServiceName>NAMED SIGNATURE</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>SW</LocalServiceType>
+                    <GlobalServiceName>LEAVE WITH NEIGHBOUR</GlobalServiceName>
+                    <LocalServiceTypeName>LEAVE WITH NEIGHBOUR</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>SW</GlobalServiceType>
+                    <LocalServiceName>LEAVE WITH NEIGHBOUR</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>TA</LocalServiceType>
+                    <GlobalServiceName>DEDICATED DELIVERY</GlobalServiceName>
+                    <LocalServiceTypeName>DEDICATED DELIVERY</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>TA</GlobalServiceType>
+                    <LocalServiceName>DEDICATED DELIVERY</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>TE</LocalServiceType>
+                    <GlobalServiceName>DELIVERY ON APPOINTMENT</GlobalServiceName>
+                    <LocalServiceTypeName>DELIVERY ON APPINTMENT</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>TE</GlobalServiceType>
+                    <LocalServiceName>DELIVERY ON APPINTMENT</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>TT</LocalServiceType>
+                    <GlobalServiceName>SCHEDULED DELIVERY</GlobalServiceName>
+                    <LocalServiceTypeName>SCHEDULED DELIVERY</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>TEC</ChargeCodeType>
+                    <GlobalServiceType>TT</GlobalServiceType>
+                    <LocalServiceName>SCHEDULED DELIVERY</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>TV</LocalServiceType>
+                    <GlobalServiceName>COLLECT FROM SERVICE POINT</GlobalServiceName>
+                    <LocalServiceTypeName>COLLECT FROM SERVICE POINT</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>TEC</ChargeCodeType>
+                    <GlobalServiceType>TV</GlobalServiceType>
+                    <LocalServiceName>COLLECT FROM SERVICE POINT</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>YC</LocalServiceType>
+                    <GlobalServiceName>NON STACKABLE PALLET</GlobalServiceName>
+                    <LocalServiceTypeName>NON STACKABLE PALLET</LocalServiceTypeName>
+                    <SOfferedCustAgreement>N</SOfferedCustAgreement>
+                    <ChargeCodeType>SCH</ChargeCodeType>
+                    <GlobalServiceType>YC</GlobalServiceType>
+                    <LocalServiceName>NON STACKABLE PALLET</LocalServiceName>
+                </MrkSrv>
+                <SBTP>
+                    <Prod>
+                        <VldSrvComb>
+                            <SpecialServiceType>AB</SpecialServiceType>
+                            <LocalServiceType>AB</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>AC</SpecialServiceType>
+                            <LocalServiceType>AC</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>AG</SpecialServiceType>
+                            <LocalServiceType>AG</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>FF</SpecialServiceType>
+                            <LocalServiceType>FF</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>GB</SpecialServiceType>
+                            <LocalServiceType>GB</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>GG</SpecialServiceType>
+                            <LocalServiceType>GG</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>HD</SpecialServiceType>
+                            <LocalServiceType>HD</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>HL</SpecialServiceType>
+                            <LocalServiceType>HL</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>HM</SpecialServiceType>
+                            <LocalServiceType>HM</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>HV</SpecialServiceType>
+                            <LocalServiceType>HV</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>HW</SpecialServiceType>
+                            <LocalServiceType>HW</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>ID</SpecialServiceType>
+                            <LocalServiceType>ID</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>II</SpecialServiceType>
+                            <LocalServiceType>II</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>JA</SpecialServiceType>
+                            <LocalServiceType>JA</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>JD</SpecialServiceType>
+                            <LocalServiceType>JD</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>JY</SpecialServiceType>
+                            <LocalServiceType>JY</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>KB</SpecialServiceType>
+                            <LocalServiceType>KB</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>LE</SpecialServiceType>
+                            <LocalServiceType>LE</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>MA</SpecialServiceType>
+                            <LocalServiceType>MA</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>OE</SpecialServiceType>
+                            <LocalServiceType>OE</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>OO</SpecialServiceType>
+                            <LocalServiceType>OO</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>PA</SpecialServiceType>
+                            <LocalServiceType>PA</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>PD</SpecialServiceType>
+                            <LocalServiceType>PD</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>PT</SpecialServiceType>
+                            <LocalServiceType>PT</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>PU</SpecialServiceType>
+                            <LocalServiceType>PU</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>PV</SpecialServiceType>
+                            <LocalServiceType>PV</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>PW</SpecialServiceType>
+                            <LocalServiceType>PW</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>QA</SpecialServiceType>
+                            <LocalServiceType>QA</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>QH</SpecialServiceType>
+                            <LocalServiceType>QH</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>SC</SpecialServiceType>
+                            <LocalServiceType>SC</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>SW</SpecialServiceType>
+                            <LocalServiceType>SW</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>TA</SpecialServiceType>
+                            <LocalServiceType>TA</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>TE</SpecialServiceType>
+                            <LocalServiceType>TE</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>TT</SpecialServiceType>
+                            <LocalServiceType>TT</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>TV</SpecialServiceType>
+                            <LocalServiceType>TV</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>YC</SpecialServiceType>
+                            <LocalServiceType>YC</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                    </Prod>
+                </SBTP>
+            </Srv>
+            <Srv>
+                <GlobalProductCode>G</GlobalProductCode>
+                <MrkSrv>
+                    <LocalProductCode>G</LocalProductCode>
+                    <ProductShortName>ECONOMY SELECT DOMESTIC</ProductShortName>
+                    <LocalProductName>DOMESTIC ECONOMY SELECT</LocalProductName>
+                    <ProductDesc>DOMESTIC ECONOMY SELECT</ProductDesc>
+                    <NetworkTypeCode>DD</NetworkTypeCode>
+                    <POfferedCustAgreement>Y</POfferedCustAgreement>
+                    <TransInd>N</TransInd>
+                    <LocalProductCtryCd>RU</LocalProductCtryCd>
+                    <GlobalServiceType>G</GlobalServiceType>
+                    <LocalServiceName>DOMESTIC ECONOMY SELECT</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>HL</LocalServiceType>
+                    <GlobalServiceName>LIMITED QUANTITIES ADR</GlobalServiceName>
+                    <LocalServiceTypeName>LIMITED QUANTITIES ADR</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>HL</GlobalServiceType>
+                    <LocalServiceName>LIMITED QUANTITIES ADR</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>II</LocalServiceType>
+                    <GlobalServiceName>SHIPMENT INSURANCE</GlobalServiceName>
+                    <LocalServiceTypeName>SHIPMENT INSURANCE</LocalServiceTypeName>
+                    <SOfferedCustAgreement>N</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>II</GlobalServiceType>
+                    <LocalServiceName>SHIPMENT INSURANCE</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>KB</LocalServiceType>
+                    <GlobalServiceName>CASH ON DELIVERY</GlobalServiceName>
+                    <LocalServiceTypeName>CASH ON DELIVERY</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>KB</GlobalServiceType>
+                    <LocalServiceName>CASH ON DELIVERY</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>OO</LocalServiceType>
+                    <GlobalServiceName>REMOTE AREA DELIVERY</GlobalServiceName>
+                    <LocalServiceTypeName>REMOTE AREA DELIVERY</LocalServiceTypeName>
+                    <SOfferedCustAgreement>N</SOfferedCustAgreement>
+                    <ChargeCodeType>SCH</ChargeCodeType>
+                    <GlobalServiceType>OO</GlobalServiceType>
+                    <LocalServiceName>REMOTE AREA DELIVERY</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>PD</LocalServiceType>
+                    <GlobalServiceName>DATA ENTRY</GlobalServiceName>
+                    <LocalServiceTypeName>DATA ENTRY</LocalServiceTypeName>
+                    <SOfferedCustAgreement>N</SOfferedCustAgreement>
+                    <ChargeCodeType>SCH</ChargeCodeType>
+                    <GlobalServiceType>PD</GlobalServiceType>
+                    <LocalServiceName>DATA ENTRY</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>SC</LocalServiceType>
+                    <GlobalServiceName>NAMED SIGNATURE</GlobalServiceName>
+                    <LocalServiceTypeName>NAMED SIGNATURE</LocalServiceTypeName>
+                    <SOfferedCustAgreement>N</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>SC</GlobalServiceType>
+                    <LocalServiceName>NAMED SIGNATURE</LocalServiceName>
+                </MrkSrv>
+                <MrkSrv>
+                    <LocalServiceType>TE</LocalServiceType>
+                    <GlobalServiceName>DELIVERY ON APPOINTMENT</GlobalServiceName>
+                    <LocalServiceTypeName>DELIVERY ON APPINTMENT</LocalServiceTypeName>
+                    <SOfferedCustAgreement>Y</SOfferedCustAgreement>
+                    <ChargeCodeType>XCH</ChargeCodeType>
+                    <GlobalServiceType>TE</GlobalServiceType>
+                    <LocalServiceName>DELIVERY ON APPINTMENT</LocalServiceName>
+                </MrkSrv>
+                <SBTP>
+                    <Prod>
+                        <VldSrvComb>
+                            <SpecialServiceType>HL</SpecialServiceType>
+                            <LocalServiceType>HL</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>II</SpecialServiceType>
+                            <LocalServiceType>II</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>KB</SpecialServiceType>
+                            <LocalServiceType>KB</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>OO</SpecialServiceType>
+                            <LocalServiceType>OO</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>PD</SpecialServiceType>
+                            <LocalServiceType>PD</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>SC</SpecialServiceType>
+                            <LocalServiceType>SC</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                        <VldSrvComb>
+                            <SpecialServiceType>TE</SpecialServiceType>
+                            <LocalServiceType>TE</LocalServiceType>
+                            <CombRSrv>
+                                <RestrictedSpecialServiceType/>
+                                <RestrictedLocalServiceType/>
+                            </CombRSrv>
+                        </VldSrvComb>
+                    </Prod>
+                </SBTP>
+            </Srv>
+        </Srvs>
+        <Note>
+            <ActionStatus>Success</ActionStatus>
+        </Note>
+    </GetCapabilityResponse></res:DCTResponse><!-- ServiceInvocationId:20180226044223_aaa4_dc6c45f2-d232-45ba-bc8f-97773ae6e495 -->
